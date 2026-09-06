@@ -1,0 +1,2378 @@
+[
+{
+"label": "VenomDash",
+"hash": "0x94C0C2AB4AE53FF4",
+"slot": 2,
+"kind": "ability"
+},
+{
+"label": "VenomPunch",
+"hash": "0x87C0692E54963479",
+"slot": 1,
+"kind": "ability"
+},
+{
+"label": "VenomSmash",
+"hash": "0x98BFBE68DEE4C9B8",
+"slot": 3,
+"kind": "ability"
+},
+{
+"label": "VenomJump",
+"hash": "0x95F9AA541E1AB723",
+"slot": 0,
+"kind": "ability"
+},
+{
+"label": "IronWhiplash",
+"hash": "0x842E2AE6C0AAB19E",
+"slot": 0,
+"kind": "ability"
+},
+{
+"label": "IronSpiderBarrage",
+"hash": "0x9F70EBDEDDF5A5A4",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "IronRush",
+"hash": "0x8B91DDB29ABC9C2B",
+"slot": 2,
+"kind": "ability"
+},
+{
+"label": "IronShock",
+"hash": "0xBD14DA8001B15C3D",
+"slot": 3,
+"kind": "ability"
+},
+{
+"label": "TentaclePunch",
+"hash": "0xB6C5C279A896D94B",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "SpikeBall",
+"hash": "0xA8E14599DED2E3FD",
+"slot": 3,
+"kind": "ability"
+},
+{
+"label": "TentacleYank",
+"hash": "0x9118F67431E68A1D",
+"slot": 0,
+"kind": "ability"
+},
+{
+"label": "SymbioteStrike",
+"hash": "0x96CF9952F3B72010",
+"slot": 2,
+"kind": "ability"
+},
+{
+"label": "GooSlam",
+"hash": "0x932AE428D6C96ACA",
+"slot": 1,
+"kind": "ability"
+},
+{
+"label": "Goonami",
+"hash": "0x9613FA85EEEF8F2C",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "AntiVenomTempest",
+"hash": "0x9E4F39AE4E52C3FE",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "AntiVenomBomb",
+"hash": "0xB128FFCB968DB933",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "BlueVenomNova",
+"hash": "0xA6B5240703AA8028",
+"slot": 3,
+"kind": "ability"
+},
+{
+"label": "BlueVenomStormBringer",
+"hash": "0x84496D396A0863BA",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "BlueVenomChainLightning",
+"hash": "0x9D4747B40A0DA5A0",
+"slot": -1,
+"kind": "ability"
+},
+{
+"label": "BlueVenomThunderClap",
+"hash": "0x84C2E3D429CBD885",
+"slot": 2,
+"kind": "ability"
+},
+{
+"label": "TraversalVenomJump",
+"hash": "0xB4098AFC81C3EDFB",
+"slot": 0,
+"kind": "ability"
+},
+{
+"label": "TraversalVenomDash",
+"hash": "0xB530E203D53C652C",
+"slot": 2,
+"kind": "ability"
+},
+{
+"label": "SuitTech Health 1",
+"hash": "0xB23F702B5A5B4448",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Health 2",
+"hash": "0x8D79B45DA3BABB99",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Health 3",
+"hash": "0xBBD61136525B6C49",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Health 4",
+"hash": "0x9742177ABBBAC39A",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Health 5",
+"hash": "0xA1EDB2114A5B144A",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Health 6",
+"hash": "0x9EAB7667B3BAEB9B",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Damage 1",
+"hash": "0x94C010B8E66A132F",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Damage 2",
+"hash": "0xAB86D4CE1F8BECFE",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Damage 3",
+"hash": "0x9D2971A5EE6A3B2E",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Damage 4",
+"hash": "0xB1BD77E9078B94FD",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Damage 5",
+"hash": "0x8712D282F66A432D",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Damage 6",
+"hash": "0xB85416F40F8BBCFC",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Focus 1",
+"hash": "0x8709213FD05BD89C",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Focus 2",
+"hash": "0xB84FE54929BA274D",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Focus 3",
+"hash": "0x8EE04022D85BF09D",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Focus 4",
+"hash": "0xA274466E31BA5F4E",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Focus 5",
+"hash": "0x94DBE305C05B889E",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "SuitTech Focus 6",
+"hash": "0xAB9D277339BA774F",
+"slot": -2,
+"kind": "suittech"
+},
+{
+"label": "Damage Modifier Condition Target Bot Type",
+"hash": "0xB7B4399CD3964237",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Pair Confidence/Rejuvenating",
+"hash": "0xA71D1469C9E5A666",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair BestDefense/LifeLink",
+"hash": "0xA3896E365CDD719C",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair AirMarshal/FocusedParry",
+"hash": "0xA265EA972A6AFEDB",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair ComboKing/FloorIsLava",
+"hash": "0x92F1ED1EA4BD450F",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair FocusStrike/TargetAcq",
+"hash": "0xA688939EAB149CE7",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair PerfectSight/EyesOnTarget",
+"hash": "0x8AB3AD6B384DC1E9",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair Acrobat/Charged",
+"hash": "0xA5AE0231DEC8AF38",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Pair AllSeeing/ActiveSpider",
+"hash": "0xB54E5545C87D49D4",
+"slot": -2,
+"kind": "pair-container"
+},
+{
+"label": "Gadget Resupply",
+"hash": "0x93628D7073AE5542",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Web Shooters: Recharge Rate Upgrade",
+"hash": "0x83999CE3CAC1526E",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber Bombard",
+"hash": "0x840007CFAC66D881",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Web Shooters: Ammo Upgrade",
+"hash": "0xBF3BB358722B15D7",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Shooters: Recycle",
+"hash": "0xBDC6885DB4FE7954",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Shooters: Splash Zone",
+"hash": "0x95D5D65A271F3CFB",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Shooters (base)",
+"hash": "0xAA2DD770AA68C7FC",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Upshot: Capacity1",
+"hash": "0x952397CDA7F06A66",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Upshot: Capacity1 #2",
+"hash": "0x956B13065389382D",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Upshot: Heavy Knockup",
+"hash": "0xA1BDD51864F438EE",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Upshot: Capacity2",
+"hash": "0x97DF5FDC56F89E0C",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Upshot: Fire Power",
+"hash": "0xBEA7541796D19A7D",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Upshot (base)",
+"hash": "0xA45B2461809495BF",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber: Bombard",
+"hash": "0x86A40C2B8C211F7B",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber: Bombard #2",
+"hash": "0xA1E79E52D018CA7C",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber: Increase Range",
+"hash": "0x942879B3E43C2250",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber: Heave Ho",
+"hash": "0x97D627FEFED3EAD4",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber: Grabtastic",
+"hash": "0x96F36DA366A17A04",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Snatch (base)",
+"hash": "0xAEF474F554036694",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Concussion Burst: World Peace",
+"hash": "0xA3F90188B16FF0AD",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Concussion Burst: World Peace #2",
+"hash": "0x8A7E4BE881161CF7",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Concussion Burst: Lure",
+"hash": "0x842FA6FA8475C675",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Concussion Burst: Increased Capacity",
+"hash": "0xB937BAB119CA4DD6",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Concussion Burst: Soundwave",
+"hash": "0x816819CE093AA216",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Web Grabber Bombard #10",
+"hash": "0x878297A9F98E6CDA",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Ricochet Web: Kinetic Translation",
+"hash": "0xA16E63E14230B1C1",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Ricochet Web: Kinetic Translation #2",
+"hash": "0xAE2B3FA864A0D311",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Ricochet Web: Capacity1",
+"hash": "0xB831C2F412645DE2",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Ricochet Web: Potency",
+"hash": "0xBC0540371FDB7EFE",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Ricochet Web: Punch",
+"hash": "0xBB41FB87FA299BE6",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Ricochet Web (base)",
+"hash": "0xAC3238917D795C07",
+"slot": -2,
+"kind": "gadget-upgrade"
+},
+{
+"label": "Tough",
+"hash": "0x83419255B00A7253",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Focus Strike",
+"hash": "0xA78413848917688C",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Health",
+"hash": "0x8243F4566B22BFD1",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Animate On Twos",
+"hash": "0xB4AD901B5B69A084",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Air Marshal",
+"hash": "0x813381135A2CC078",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Confidence Boost",
+"hash": "0x9F452A3D66013461",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Focused Parry",
+"hash": "0x89BAEECAC067F8F6",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Combo King",
+"hash": "0xB9DA25DBE23218AB",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Ammo Refund",
+"hash": "0x9C22C9FA522753F3",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Damage Modifier Multiply",
+"hash": "0x9F4E2ED41C8F335E",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Target Acquisition",
+"hash": "0xBA485D99C372ADDA",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Floor Is Lava",
+"hash": "0x97C2410B72FD16EA",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Eyes On Target",
+"hash": "0xB6F44F0B9775EEDA",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Slam Down",
+"hash": "0xB2740F2B90937351",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Riposte",
+"hash": "0x94B8C7CFAEF39A52",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "The Best Defense",
+"hash": "0x95F005EBF04D3689",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Bonus Focus On Webbed Hit",
+"hash": "0xAB2A82A4B9706638",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Perfect Sight",
+"hash": "0xABC88C9B082C5DF5",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Efficient",
+"hash": "0x8369EA4B0743939A",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Kick Flip",
+"hash": "0xADCB375FA3CFE0BB",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Life Link",
+"hash": "0xBD35072D7E0114F0",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Damage Modifier Condition WAM Selector",
+"hash": "0xAA371E4174C6880C",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Stronger Webs",
+"hash": "0xABC716BB28954935",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Bonus Ultimate Meter On Finisher",
+"hash": "0x89404C73090B61F7",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Slingshot Launch",
+"hash": "0x92D6767F4ECC1577",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "SlingshotLaunch",
+"hash": "0x8933615BAD23D8DE",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "SlingshotLaunch #2",
+"hash": "0x9B5A4C9F946C2103",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Web Whip Pitch",
+"hash": "0xB7E26367D692A3E2",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Corner Tether",
+"hash": "0xABC9EF980D64F316",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Gadget Proc",
+"hash": "0x9230B125B55A4109",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Parry Disarm Light",
+"hash": "0x916B1FA2DC7D8AC3",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "RWIk",
+"hash": "0x822688AEB677B5BF",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Web Throw Enemies",
+"hash": "0xBC5FF2248F87C0D6",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Corner Tether #2",
+"hash": "0xBFB0022F898D2F3B",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Perfect Dodge Cooldown",
+"hash": "0x912285D7B5340A90",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Parry Webbed",
+"hash": "0xA7FD8E4F88B87BEA",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "ParryDisarm",
+"hash": "0x910776D718787A92",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Directional Web Yank",
+"hash": "0x80DD90A3C28C634E",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Knockout Cooldown",
+"hash": "0xBDF9D238213B9178",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Parry Amped",
+"hash": "0xA045BE3D997DC5C4",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "ParryWebbed",
+"hash": "0x92F41E5962511C54",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Lift And Slam Web Yank",
+"hash": "0xBD7D00BDD77EF8BC",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Combo Cooldown",
+"hash": "0x8861EC13F965A036",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "XKmu",
+"hash": "0xA0A96CEFAF7CF0FB",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Aerial Escapades",
+"hash": "0x82B6EA795C08AAF6",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Fired Up",
+"hash": "0x9B6BF5FE4DD8879E",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Two Target Stealth Perch Takedown",
+"hash": "0x94CF5B6A8FC1E747",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Ultimate Assist",
+"hash": "0xA027A8640B91ACC8",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Iron Rush Tornado",
+"hash": "0x8FC793233B1E25CC",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Iron Shock Overload",
+"hash": "0xB96BACDC696EE095",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Iron Barrage Brute Force",
+"hash": "0xAF0AC808A0743469",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Iron Barrage Brute Force #2",
+"hash": "0xB9CECB80238543AD",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "IronShockOverload",
+"hash": "0xA218F705D7024E93",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Iron Launch Status Spread",
+"hash": "0x81F8F63289D0AEC1",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Tentacle Yank Moar",
+"hash": "0xA936FD5D81B404D7",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Symbiote Strike Goo Train",
+"hash": "0xB05B26A473BDE29E",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Spike Ball Range",
+"hash": "0xAF20FDB54BF0CC8E",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "SymbioteYankMoar",
+"hash": "0x9FF602263B1D9D41",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Symbiote Surge Dont Resist",
+"hash": "0x9E9EEE048D407064",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Symbiote Surge Ready To Glow",
+"hash": "0x9EAEE087E7A33927",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Symbiote Surge Alien Harmony",
+"hash": "0xA259A6CC3CC3A751",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Symbiote Surge Power Spike",
+"hash": "0x8C0E6DED3AAD5BD7",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Venom Punch Wall Slam",
+"hash": "0x971284BC89FD79FA",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Venom Dash Double Dash",
+"hash": "0xB7347D4F2623360B",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Venom Jump Mastery",
+"hash": "0x8F8032BD9C35F402",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Venom Smash Jolt",
+"hash": "0xAE16DA634B5BF1D8",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Bio Siphon",
+"hash": "0x8D6D95F12F2FDC03",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Residual Venom Remix",
+"hash": "0x98A650FF566D65FE",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Venom Status Going Critical",
+"hash": "0x9646AC9A8294089A",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Blue Venom Chain Lightning Power Overwhelming",
+"hash": "0x9A46910E7094EDA1",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Blue Venom Nova Boost",
+"hash": "0xA583D66A7B8ADA36",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Blue Venom Nova Boost #2",
+"hash": "0xA3A77847D24A9CB3",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Storm Bringer Ground Slam",
+"hash": "0x861C8277D42050A8",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Mega Venom Blast Beacon Of Might",
+"hash": "0x934A72F9053EA5D4",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Mega Venom Blast Self Care",
+"hash": "0xA9595DD7F8FEF84D",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Mega Venom Blast Recharge",
+"hash": "0xBBA6EFD8AFFF781F",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Mega Venom Blast Overcharge",
+"hash": "0x8C8D5D3018DEA3E0",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Rejuvenating Parry",
+"hash": "0xBEE32D05C33C2BB9",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Wingsuit Lift",
+"hash": "0xABEF520201409D81",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Point Launch Boost",
+"hash": "0x9F253C9A5F124388",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Acrobat",
+"hash": "0x84370D4B4C4D113E",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Charged",
+"hash": "0xB1ED2CB9CBC64292",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Swing Momentum Boost",
+"hash": "0x81F712EDE549D669",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Wingsuit Steering",
+"hash": "0xB28EF44EC77A3BC0",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "All Seeing",
+"hash": "0x9292304A53CD8BB9",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Active Spider",
+"hash": "0x91E56BE841272859",
+"slot": -2,
+"kind": "doubleperk"
+},
+{
+"label": "Wingsuit Dive Boost",
+"hash": "0xBA214C0041D7D5B2",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Swing Momentum Boost #2",
+"hash": "0xBEB1D69B1CA829B8",
+"slot": -2,
+"kind": "skill"
+},
+{
+"label": "Gadget Web Shooters",
+"hash": "0x950F8C59A7A78A3A",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Web Line (traversal)",
+"hash": "0xA4269198B94C29FE",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Web Snatch (traversal)",
+"hash": "0xB593AA0AB6A60095",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Sonic Burst (alt)",
+"hash": "0xBEF02D901FC74F2B",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Upshot",
+"hash": "0xA452548327958B96",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Web Grabber",
+"hash": "0xBF25BBE9ED3A1DF6",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Ricochet Web",
+"hash": "0xA9A82ACE78C0A40C",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Gadget Concussion Burst",
+"hash": "0x824DCC99FA0B413C",
+"slot": -2,
+"kind": "gadget"
+},
+{
+"label": "Tech Parts",
+"hash": "0xA28BFE321D998759",
+"slot": -2,
+"kind": "currency"
+},
+{
+"label": "City Tokens",
+"hash": "0x87A9D5E7FBEA0D25",
+"slot": -2,
+"kind": "currency"
+},
+{
+"label": "Rare Tech Parts",
+"hash": "0x89688422AA242A27",
+"slot": -2,
+"kind": "currency"
+},
+{
+"label": "Hero Tokens",
+"hash": "0xB47BE0D69CC9C98A",
+"slot": -2,
+"kind": "currency"
+},
+{
+"label": "XP",
+"hash": "0xAA406AAD7F3C6C12",
+"slot": -2,
+"kind": "currency"
+},
+{
+"label": "Skill Points",
+"hash": "0xA647BF58317413F1",
+"slot": -2,
+"kind": "currency"
+},
+{
+"label": "Mod Slot Defensive",
+"hash": "0xA7CD65317725938A",
+"slot": -2,
+"kind": "modslot"
+},
+{
+"label": "Mod Slot Offensive",
+"hash": "0x9D065CED088B1D2D",
+"slot": -2,
+"kind": "modslot"
+},
+{
+"label": "Mod Slot Flexible",
+"hash": "0x9797AA72DA57E3D3",
+"slot": -2,
+"kind": "modslot"
+},
+{
+"label": "Suit Black",
+"hash": "0x9D5E56A36D764DE9",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Symbiote",
+"hash": "0xACDEDB26E2302200",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Antivenom Suit",
+"hash": "0x8A692590BF86EDAA",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Evolve",
+"hash": "0x96EE8E56D2D99D79",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Classic",
+"hash": "0x9C49745C088D5006",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Family",
+"hash": "0x82E3BD36A745E154",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Newscarlet",
+"hash": "0x81F664A23CD6A10B",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Advanced 1",
+"hash": "0xB6AB8E203387642F",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Classic Suit",
+"hash": "0xBFD550D8158BBECA",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Track",
+"hash": "0xAB29147C25E4D269",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Momoko",
+"hash": "0x8B20166871254898",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Nwh Hybrid",
+"hash": "0x9A10AC36FE83105E",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Taurin",
+"hash": "0xA37E096616D65FBF",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Amazing",
+"hash": "0x9F87D9B09F65C1CF",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Amazing2",
+"hash": "0xAD6968CE9AC1102A",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Sportswear",
+"hash": "0xA66636FE5AD421EB",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit 2099",
+"hash": "0x866C89D21DB9D27B",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Lifestory",
+"hash": "0x988200E037AE151D",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles 2099",
+"hash": "0x886BE6CD986AA755",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Scarlet",
+"hash": "0xB5C009D7CDA03E0D",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Superior",
+"hash": "0x8EB338C431D50651",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Advanced",
+"hash": "0xBE9A2915338BE121",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Antiock",
+"hash": "0x91262D3F7D20E0AE",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Shadowspider",
+"hash": "0x9FAC62598A287C8D",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles 2020",
+"hash": "0x88A30ED7583B78F9",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Arach Knight",
+"hash": "0x9402C4B48ADCCC3F",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Purplerain",
+"hash": "0x9805E026C55B5F53",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Itsvnoir",
+"hash": "0xB0E27DB3BBB9818A",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Makeshift",
+"hash": "0xAD2191794957831C",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Spidercat",
+"hash": "0x96216C7937D7BD7B",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Panther",
+"hash": "0x9FBC023E650937FC",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Punk",
+"hash": "0xAB8F5C4A037FBB6E",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Homemade",
+"hash": "0xB9F586BA328BB251",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Civilwar",
+"hash": "0xB1C0ED576DE6EA8F",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Ironspider",
+"hash": "0xA0616113E3183374",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Itsv",
+"hash": "0x81B52DF395D47F7E",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Webbed Black",
+"hash": "0x8465347A909ABADE",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Webbed",
+"hash": "0xBAD8DCAF961FCBEF",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Itsvcape",
+"hash": "0x9CACEE69825FA55D",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles End",
+"hash": "0x9D2B58FC91F9EA54",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Mcu",
+"hash": "0xB8BBF379A68FA0D0",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Anniversary",
+"hash": "0x86724372DBEEE691",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Proma",
+"hash": "0xACFF0940E53C5887",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Newf4",
+"hash": "0xB7572AF278EAB1FB",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Strike",
+"hash": "0xA420E668A629C559",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Shield",
+"hash": "0xAFAFB899138CB433",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Ffh",
+"hash": "0xBD84E99BD1CD5B10",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Gift",
+"hash": "0x87E98520F0258CA7",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Atsv",
+"hash": "0xB760003D456B9392",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Ffhstealth",
+"hash": "0x835C5AEB18E66AC5",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Crimson",
+"hash": "0x8535446E986086F6",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Classic Black",
+"hash": "0xB5E1C1953B7EACB4",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Whatif",
+"hash": "0x9936EEF4ACF938A3",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Iron",
+"hash": "0x9B4824A99C133275",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Darkages",
+"hash": "0xB7B835C15F15884C",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Nwh",
+"hash": "0xAD1B9480537AEE45",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Nwh Black",
+"hash": "0xBCB4168985B94DC7",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Symbiote",
+"hash": "0xA19DECFFDA119983",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Knull",
+"hash": "0xAC6E099EA8559A09",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Lifestory",
+"hash": "0xB645BD00BBC4C5ED",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Kraven",
+"hash": "0x8712E98FD0651521",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Wraith",
+"hash": "0x83F5335BAF03B855",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Latinx",
+"hash": "0x955D5E458F31A83E",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Mysterio",
+"hash": "0x9A4E48CB52F4AA23",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Kraven",
+"hash": "0x8543336125358E7B",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Harlem",
+"hash": "0xB240FEBCB4A28235",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Auranita Dde",
+"hash": "0x9E47E2EE4AA094A9",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Apunkalyptic Dde",
+"hash": "0x89C0F906A88CC529",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Tactical Dde",
+"hash": "0xA05AFB3AF5CED55F",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Stone Monkey Dde",
+"hash": "0x8DD7061C5C8D9F5A",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit 25Th Century Dde",
+"hash": "0x9A6F9FC6F31BD574",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Encoded Dde",
+"hash": "0x836BF8A87845B3AC",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Biomechanical Dde",
+"hash": "0xA2747BF63F915BAB",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Tokusatsu Dde",
+"hash": "0x9EAA59B8B973CDA1",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Agimat Dde",
+"hash": "0x8BCA5E354779E22B",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Red Spectre Dde",
+"hash": "0xAFC0C5C30B9C0631",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Peter Fly Suit",
+"hash": "0x921B160712E8A897",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Fresh Suit",
+"hash": "0xBE68F127DB037FF3",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Peter Hellfire Suit",
+"hash": "0x87C710F3F6E980FD",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Hellfire Suit",
+"hash": "0x8EA41DED54CC22BC",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Peter Fluro",
+"hash": "0x8445C6EEF6C86C75",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Peter Motochic",
+"hash": "0x9BAD8033D8FF8B9C",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit I20 Peter Laststand",
+"hash": "0xA515DF6C442DAFA8",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit I20R Peter Spiderverse",
+"hash": "0xBF4E9AEAD0F057EA",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Metro Suit",
+"hash": "0xABF2E11B015013AB",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Ginga Suit",
+"hash": "0xB413CEF3158EABE0",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Uptownpride Suit",
+"hash": "0x923073ABC3A717B7",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit I31 Miles Animated",
+"hash": "0xA234B2C2C8157D97",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Freshstart",
+"hash": "0xBDBBF963F648C34C",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Tokon",
+"hash": "0xAF82FEDFD2D0B36F",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Advanced Suit",
+"hash": "0xBC46538AB3E876D2",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Suit Miles Updated",
+"hash": "0xAB6D803052915183",
+"slot": -2,
+"kind": "suit"
+},
+{
+"label": "Style Agents of Shield Suit 1",
+"hash": "0xB97A1078A8445ACC",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Agents of Shield Suit 2",
+"hash": "0x863CD40E51A5A51D",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Agents of Shield Suit 3",
+"hash": "0xB0937165A04472CD",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Anti Ock Suit 1",
+"hash": "0x8A0AC501A5651617",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Anti Ock Suit 2",
+"hash": "0xB54C01775C84E9C6",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Anti Ock Suit 3",
+"hash": "0x83E3A41CAD653E16",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Civil War Suit 1",
+"hash": "0xAF24F1D326B65111",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Civil War Suit 2",
+"hash": "0x906235A5DF57AEC0",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Civil War Suit 3",
+"hash": "0xA6CD90CE2EB67910",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Classic Suit 1",
+"hash": "0xA2FF27A0D4F019DB",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Classic Suit 2",
+"hash": "0x9DB9E3D62D11E60A",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Classic Suit 3",
+"hash": "0xAB1646BDDCF031DA",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Crimson Cowl Suit 1",
+"hash": "0x98C443AB608CB056",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Crimson Cowl Suit 2",
+"hash": "0xA78287DD996D4F87",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Crimson Cowl Suit 3",
+"hash": "0x912D22B6688C9857",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Dark Ages Suit 1",
+"hash": "0xA2B7E07977130D65",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Dark Ages Suit 2",
+"hash": "0x9DF1240F8EF2F2B4",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Dark Ages Suit 3",
+"hash": "0xAB5E81647F132564",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Great Responsibility Suit 1",
+"hash": "0x8EEE6E51889E85F5",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Great Responsibility Suit 2",
+"hash": "0xB1A8AA27717F7A24",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Great Responsibility Suit 3",
+"hash": "0x87070F4C809EADF4",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Harlem Miles Suit 1",
+"hash": "0x8F0195E0D3B88B01",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Harlem Miles Suit 2",
+"hash": "0xB04751962A5974D0",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Harlem Miles Suit 3",
+"hash": "0x86E8F4FDDBB8A300",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Hunter Pete Suit 1",
+"hash": "0x9CE3C3A9DF747350",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Hunter Pete Suit 2",
+"hash": "0xA3A507DF26958C81",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Hunter Pete Suit 3",
+"hash": "0x950AA2B4D7745B51",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Latinx Voices Suit 1",
+"hash": "0x97DF11920A9700DC",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Latinx Voices Suit 2",
+"hash": "0xA899D5E4F376FF0D",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Latinx Voices Suit 3",
+"hash": "0x9E36708F029728DD",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Lifestory Suit 1",
+"hash": "0x9E7F7D417F8714CB",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Lifestory Suit 2",
+"hash": "0xA139B9378666EB1A",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Lifestory Suit 3",
+"hash": "0x97961C5C77873CCA",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles 2020 Suit 1",
+"hash": "0x8063EE7BA3C2FA61",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles 2020 Suit 2",
+"hash": "0xBF252A0D5A2305B0",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles 2020 Suit 3",
+"hash": "0x898A8F66ABC2D260",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles 2099 Suit 1",
+"hash": "0xACDC32B50B20A71E",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles 2099 Suit 2",
+"hash": "0x939AF6C3F2C158CF",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles 2099 Suit 3",
+"hash": "0xA53553A803208F1F",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Evolved Suit 1",
+"hash": "0xA2DBF2E7F98286D1",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Evolved Suit 2",
+"hash": "0x9D9D369100637900",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Evolved Suit 3",
+"hash": "0xAB3293FAF182AED0",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Family Suit 2",
+"hash": "0x8F55348B1C76A184",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Family Suit 3",
+"hash": "0xB9FA91E0ED977654",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Ginga 1",
+"hash": "0x9AC35D3ABF3BD241",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Ginga 2",
+"hash": "0xA585994C46DA2D90",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Ginga 3",
+"hash": "0x932A3C27B73BFA40",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Hunter Suit 1",
+"hash": "0x864AFCC3CB5954F2",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Hunter Suit 2",
+"hash": "0xB90C38B532B8AB23",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Hunter Suit 3",
+"hash": "0x8FA39DDEC3597CF3",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Life Story Suit 1",
+"hash": "0x89DA8CC1BAC18A0C",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Life Story Suit 2",
+"hash": "0xB69C48B7432075DD",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Life Story Suit 3",
+"hash": "0x8033EDDCB2C1A20D",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Metro Suit 1",
+"hash": "0xBFE212C6A0784A69",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Metro Suit 2",
+"hash": "0x80A4D6B05999B5B8",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Metro Suit 3",
+"hash": "0xB60B73DBA8786268",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Track Suit 1",
+"hash": "0x858807872815C941",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Track Suit 2",
+"hash": "0xBACEC3F1D1F43690",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Track Suit 3",
+"hash": "0x8C61669A2015E140",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Updated Suit 1",
+"hash": "0x8745831EAE8E15A0",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Updated Suit 2",
+"hash": "0xB8034768576FEA71",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles Updated Suit 3",
+"hash": "0x8EACE203A68E3DA1",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles UptownPride Suit 1",
+"hash": "0x9DE1B52513CDAB73",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles UptownPride Suit 2",
+"hash": "0xA2A77153EA2C54A2",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Miles UptownPride Suit 3",
+"hash": "0x9408D4381BCD8372",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Momoko Suit 1",
+"hash": "0xA6BAC46ACD82408F",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Momoko Suit 2",
+"hash": "0x99FC001C3463BF5E",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Momoko Suit 3",
+"hash": "0xAF53A577C582688E",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Mysterio Suit 1",
+"hash": "0xA54779CCC46F37DB",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Mysterio Suit 2",
+"hash": "0x9A01BDBA3D8EC80A",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Mysterio Suit 3",
+"hash": "0xACAE18D1CC6F1FDA",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Panther Suit 1",
+"hash": "0xA6757E8516060055",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Panther Suit 2",
+"hash": "0x9933BAF3EFE7FF84",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Panther Suit 3",
+"hash": "0xAF9C1F981E062854",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter Fluro 1",
+"hash": "0xBAB6C81B69FC499E",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter Fluro 2",
+"hash": "0x85F00C6D901DB64F",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter Fluro 3",
+"hash": "0xB35FA90661FC619F",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter LastStand 1",
+"hash": "0xA476EA7F918BCB57",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter LastStand 2",
+"hash": "0x9B302E09686A3486",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter LastStand 3",
+"hash": "0xAD9F8B62998BE356",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter Motorchic 1",
+"hash": "0x9ACEB5200D59EF63",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter Motorchic 2",
+"hash": "0xA5887156F4B810B2",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Peter Motorchic 3",
+"hash": "0x9327D43D0559C762",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Purple Rain Suit 1",
+"hash": "0xA9F8FFAB0D0BD587",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Purple Rain Suit 2",
+"hash": "0x96BE3BDDF4EA2A56",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Purple Rain Suit 3",
+"hash": "0xA0119EB6050BFD86",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Scarlet Suit 1",
+"hash": "0xAF3D655BE460762C",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Scarlet Suit 2",
+"hash": "0x907BA12D1D8189FD",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Scarlet Suit 3",
+"hash": "0xA6D40446EC605E2D",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Superior Spider Man Suit 1",
+"hash": "0xAFE1FFB39352FF10",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Superior Spider Man Suit 2",
+"hash": "0x90A73BC56AB300C1",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Superior Spider Man Suit 3",
+"hash": "0xA6089EAE9B52D711",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Taurin Suit 1",
+"hash": "0xA8155BE4518BA63A",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Taurin Suit 2",
+"hash": "0x97539F92A86A59EB",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Taurin Suit 3",
+"hash": "0xA1FC3AF9598B8E3B",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style The End Suit 1",
+"hash": "0x8FBAB0C74686AAE0",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style The End Suit 2",
+"hash": "0xB0FC74B1BF675531",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style The End Suit 3",
+"hash": "0x8653D1DA4E8682E1",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style What If Suit 1",
+"hash": "0xBAE930723C79BC5D",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style What If Suit 2",
+"hash": "0x85AFF404C598438C",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style What If Suit 3",
+"hash": "0xB300516F3479945C",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Wraith Pete Suit 1",
+"hash": "0xB12C93DEE7E6C11E",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Wraith Pete Suit 2",
+"hash": "0x8E6A57A81E073ECF",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style Wraith Pete Suit 3",
+"hash": "0xB8C5F2C3EFE6E91F",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i20 2099 Suit 1",
+"hash": "0x891D4455494486CB",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i20 2099 Suit 2",
+"hash": "0xB65B8023B0A5791A",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i20 2099 Suit 3",
+"hash": "0x80F425484144AECA",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i20 Advanced Suit 1",
+"hash": "0xA6648F9E564AFDE6",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i20 Advanced Suit 2",
+"hash": "0x99224BE8AFAB0237",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i20 Advanced Suit 3",
+"hash": "0xAF8DEE835E4AD5E7",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i30 Advanced Suit 1",
+"hash": "0xAA1BB185A0FB1CA5",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i30 Advanced Suit 2",
+"hash": "0x955D75F3591AE374",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i30 Advanced Suit 3",
+"hash": "0xA3F2D098A8FB34A4",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i31 Homemade Suit 1",
+"hash": "0xA8BB8A7FC82DED4D",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i31 Homemade Suit 2",
+"hash": "0x97FD4E0931CC129C",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i31 Homemade Suit 3",
+"hash": "0xA152EB62C02DC54C",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i31 Miles Classic Suit 1",
+"hash": "0xB19BB0A03BA04091",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i31 Miles Classic Suit 2",
+"hash": "0x8EDD74D6C241BF40",
+"slot": -2,
+"kind": "suitstyle"
+},
+{
+"label": "Style i31 Miles Classic Suit 3",
+"hash": "0xB872D1BD33A06890",
+"slot": -2,
+"kind": "suitstyle"
+}
+]

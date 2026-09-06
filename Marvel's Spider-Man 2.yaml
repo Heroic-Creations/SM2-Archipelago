@@ -1,0 +1,37 @@
+# Marvel's Spider-Man 2 -- Archipelago YAML template (alpha)
+name: YourName
+game: Marvel's Spider-Man 2
+description: Spider-Man 2 alpha
+requires:
+  version: 0.6.4
+
+Marvel's Spider-Man 2:
+  # zero_to_hero: start with nothing, checks hand it back
+  # longest_night: start with everything, checks take it away
+  game_mode: longest_night
+
+  # all_side_missions | all_spider_bots | all_photo_ops | everything
+  goal: all_side_missions
+
+  # Districts open with items. What a LOCKED district does to you:
+  # auto (Night's Grip in Longest Night, Powers Fade in Zero to Hero)
+  # nights_grip | powers_fade | boundary | none
+  district_gating: true
+  district_gate: auto
+  starting_districts: 3
+  random_start: false        # the district you load into is one of your free ones
+
+  # Which checks are in the pool
+  marko_memories: true
+  symbiote_nests: true
+  hunter_blinds: true
+  mysteriums: true
+  prowler_stashes: true
+  brooklyn_visions: true
+  emf_experiments: true
+  fnsm_requests: true
+  spider_bots: true
+  photo_ops: true
+
+  suit_sanity: false
+  story_checks: false

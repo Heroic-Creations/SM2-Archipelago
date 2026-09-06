@@ -1,0 +1,1095 @@
+[
+ {
+  "name": "Hunter Blind: Brooklyn Aviary 01",
+  "category": "blind",
+  "always": false,
+  "district": "Harlem",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_BROOKLYN_AVIARY_01"
+ },
+ {
+  "name": "Hunter Blind: Brooklyn Aviary 02",
+  "category": "blind",
+  "always": false,
+  "district": "Harlem",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_BROOKLYN_AVIARY_02"
+ },
+ {
+  "name": "Hunter Blind: Financial District 01",
+  "category": "blind",
+  "always": false,
+  "district": "Upper West Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_FINANCEDIST_01"
+ },
+ {
+  "name": "Hunter Blind: Financial District 02",
+  "category": "blind",
+  "always": false,
+  "district": "Upper West Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_FINANCEDIST_02"
+ },
+ {
+  "name": "Hunter Blind: Financial District 03",
+  "category": "blind",
+  "always": false,
+  "district": "Upper West Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_FINANCEDIST_03"
+ },
+ {
+  "name": "Hunter Blind: Harlem 01",
+  "category": "blind",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_HARLEM_01"
+ },
+ {
+  "name": "Hunter Blind: Harlem 02",
+  "category": "blind",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_HARLEM_02"
+ },
+ {
+  "name": "Hunter Blind: Harlem 03",
+  "category": "blind",
+  "always": false,
+  "district": "Downtown Brooklyn",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_HARLEM_03"
+ },
+ {
+  "name": "Hunter Blind: Upper West Side 01",
+  "category": "blind",
+  "always": false,
+  "district": "Harlem",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_UPPERWEST_01"
+ },
+ {
+  "name": "Hunter Blind: Upper West Side 02",
+  "category": "blind",
+  "always": false,
+  "district": "Upper West Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_UPPERWEST_02"
+ },
+ {
+  "name": "Hunter Blind: Upper West Side 03",
+  "category": "blind",
+  "always": false,
+  "district": "Upper West Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BLIND_HUNTER_UPPERWEST_03"
+ },
+ {
+  "name": "Brooklyn Visions 01",
+  "category": "bva",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BVA_01"
+ },
+ {
+  "name": "Brooklyn Visions 02",
+  "category": "bva",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BVA_02"
+ },
+ {
+  "name": "Brooklyn Visions 03",
+  "category": "bva",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "BVA_03"
+ },
+ {
+  "name": "EMF: Brooklyn Heights",
+  "category": "emf",
+  "always": false,
+  "district": "Central Park",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_EMF_ENERGY_BROOKLYNHEIGHTS"
+ },
+ {
+  "name": "EMF: Central Park",
+  "category": "emf",
+  "always": false,
+  "district": "Chinatown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_EMF_ENERGY_CENTRALPARK"
+ },
+ {
+  "name": "EMF: Finale",
+  "category": "emf",
+  "always": false,
+  "district": "Central Park",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_EMF_FINALE"
+ },
+ {
+  "name": "FNSM: Fido",
+  "category": "fnsm",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "FNSM_FIDO"
+ },
+ {
+  "name": "FNSM: Fireworks",
+  "category": "fnsm",
+  "always": false,
+  "district": "Downtown Brooklyn",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "FNSM_FIREWORKS"
+ },
+ {
+  "name": "FNSM: Howard",
+  "category": "fnsm",
+  "always": false,
+  "district": "Midtown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "FNSM_HOWARD"
+ },
+ {
+  "name": "FNSM: Spider-Bot",
+  "category": "fnsm",
+  "always": false,
+  "district": "Chinatown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "FNSM_SPIDERBOT"
+ },
+ {
+  "name": "Mysterium 01",
+  "category": "mysterio",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_01"
+ },
+ {
+  "name": "Mysterium 02",
+  "category": "mysterio",
+  "always": false,
+  "district": "Downtown Brooklyn",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_02"
+ },
+ {
+  "name": "Mysterium 03",
+  "category": "mysterio",
+  "always": false,
+  "district": "Harlem",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_03"
+ },
+ {
+  "name": "Mysterium 04",
+  "category": "mysterio",
+  "always": false,
+  "district": "Central Park",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_04"
+ },
+ {
+  "name": "Mysterium 05",
+  "category": "mysterio",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_05"
+ },
+ {
+  "name": "Mysterium 06",
+  "category": "mysterio",
+  "always": false,
+  "district": "Chinatown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_06"
+ },
+ {
+  "name": "Mysterium 09",
+  "category": "mysterio",
+  "always": false,
+  "district": "Downtown Queens",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_09"
+ },
+ {
+  "name": "Mysterium 11",
+  "category": "mysterio",
+  "always": false,
+  "district": "Upper East Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_11"
+ },
+ {
+  "name": "Mysterium 12",
+  "category": "mysterio",
+  "always": false,
+  "district": "Midtown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "MYSTERIO_CHALLENGE_12"
+ },
+ {
+  "name": "Symbiote Nest 01",
+  "category": "nest",
+  "always": false,
+  "district": "Astoria",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_01_P1"
+ },
+ {
+  "name": "Symbiote Nest 02",
+  "category": "nest",
+  "always": false,
+  "district": "Harlem",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_02_P1"
+ },
+ {
+  "name": "Symbiote Nest 03",
+  "category": "nest",
+  "always": false,
+  "district": "Harlem",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_03_P1"
+ },
+ {
+  "name": "Symbiote Nest 04",
+  "category": "nest",
+  "always": false,
+  "district": "Upper East Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_04_P1"
+ },
+ {
+  "name": "Symbiote Nest 06",
+  "category": "nest",
+  "always": false,
+  "district": "Upper East Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_06_P1"
+ },
+ {
+  "name": "Symbiote Nest 07",
+  "category": "nest",
+  "always": false,
+  "district": "Upper West Side",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_07_P2"
+ },
+ {
+  "name": "Symbiote Nest 10",
+  "category": "nest",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_10_P2"
+ },
+ {
+  "name": "Symbiote Nest 11",
+  "category": "nest",
+  "always": false,
+  "district": "Chinatown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_11_P2"
+ },
+ {
+  "name": "Symbiote Nest 12",
+  "category": "nest",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_12_P2"
+ },
+ {
+  "name": "Symbiote Nest 14",
+  "category": "nest",
+  "always": false,
+  "district": "Little Odessa",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "SYMBIOTE_NEST_14_P2"
+ },
+ {
+  "name": "Photo Op 01",
+  "category": "photo",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 0,
+  "engine": "Photo Op 01"
+ },
+ {
+  "name": "Photo Op 02",
+  "category": "photo",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 1,
+  "engine": "Photo Op 02"
+ },
+ {
+  "name": "Photo Op 03",
+  "category": "photo",
+  "always": true,
+  "district": "Central Park",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 2,
+  "engine": "Photo Op 03"
+ },
+ {
+  "name": "Photo Op 04",
+  "category": "photo",
+  "always": true,
+  "district": "Central Park",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 3,
+  "engine": "Photo Op 04"
+ },
+ {
+  "name": "Photo Op 05",
+  "category": "photo",
+  "always": true,
+  "district": "Chinatown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 4,
+  "engine": "Photo Op 05"
+ },
+ {
+  "name": "Photo Op 06",
+  "category": "photo",
+  "always": true,
+  "district": "Chinatown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 5,
+  "engine": "Photo Op 06"
+ },
+ {
+  "name": "Photo Op 07",
+  "category": "photo",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 6,
+  "engine": "Photo Op 07"
+ },
+ {
+  "name": "Photo Op 08",
+  "category": "photo",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 7,
+  "engine": "Photo Op 08"
+ },
+ {
+  "name": "Photo Op 09",
+  "category": "photo",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 8,
+  "engine": "Photo Op 09"
+ },
+ {
+  "name": "Photo Op 10",
+  "category": "photo",
+  "always": true,
+  "district": "Downtown Queens",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 9,
+  "engine": "Photo Op 10"
+ },
+ {
+  "name": "Photo Op 11",
+  "category": "photo",
+  "always": true,
+  "district": "Financial District",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 10,
+  "engine": "Photo Op 11"
+ },
+ {
+  "name": "Photo Op 12",
+  "category": "photo",
+  "always": true,
+  "district": "Greenwich",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 11,
+  "engine": "Photo Op 12"
+ },
+ {
+  "name": "Photo Op 13",
+  "category": "photo",
+  "always": true,
+  "district": "Greenwich",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 12,
+  "engine": "Photo Op 13"
+ },
+ {
+  "name": "Photo Op 14",
+  "category": "photo",
+  "always": true,
+  "district": "Harlem",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 13,
+  "engine": "Photo Op 14"
+ },
+ {
+  "name": "Photo Op 15",
+  "category": "photo",
+  "always": true,
+  "district": "Hell's Kitchen",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 14,
+  "engine": "Photo Op 15"
+ },
+ {
+  "name": "Photo Op 16",
+  "category": "photo",
+  "always": true,
+  "district": "Little Odessa",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 15,
+  "engine": "Photo Op 16"
+ },
+ {
+  "name": "Photo Op 17",
+  "category": "photo",
+  "always": true,
+  "district": "Little Odessa",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 16,
+  "engine": "Photo Op 17"
+ },
+ {
+  "name": "Photo Op 18",
+  "category": "photo",
+  "always": true,
+  "district": "Little Odessa",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 17,
+  "engine": "Photo Op 18"
+ },
+ {
+  "name": "Photo Op 19",
+  "category": "photo",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 18,
+  "engine": "Photo Op 19"
+ },
+ {
+  "name": "Photo Op 20",
+  "category": "photo",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 19,
+  "engine": "Photo Op 20"
+ },
+ {
+  "name": "Photo Op 21",
+  "category": "photo",
+  "always": true,
+  "district": "Central Park",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 20,
+  "engine": "Photo Op 21"
+ },
+ {
+  "name": "Photo Op 22",
+  "category": "photo",
+  "always": true,
+  "district": "Central Park",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 21,
+  "engine": "Photo Op 22"
+ },
+ {
+  "name": "Photo Op 23",
+  "category": "photo",
+  "always": true,
+  "district": "Chinatown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 22,
+  "engine": "Photo Op 23"
+ },
+ {
+  "name": "Prowler Stash 02",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Hell's Kitchen",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_PROWLERTECH_02"
+ },
+ {
+  "name": "Prowler Stash 02 Small Ac44",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Downtown Brooklyn",
+  "district_source": "position+counts",
+  "pos": [
+   2166.7,
+   79.3,
+   2518.3
+  ],
+  "engine": "OW_PROWLERTECH_02_SMALL_AC44"
+ },
+ {
+  "name": "Prowler Stash 03",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Midtown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_PROWLERTECH_03"
+ },
+ {
+  "name": "Prowler Stash 03 Medium G36",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Greenwich",
+  "district_source": "position+counts",
+  "pos": [
+   -591.8,
+   72.9,
+   1463.0
+  ],
+  "engine": "OW_PROWLERTECH_03_MEDIUM_G36"
+ },
+ {
+  "name": "Prowler Stash 05",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_PROWLERTECH_05"
+ },
+ {
+  "name": "Prowler Stash 05 Xsmall Ag37",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "position+counts",
+  "pos": [
+   2795.3,
+   61.0,
+   1623.1
+  ],
+  "engine": "OW_PROWLERTECH_05_XSMALL_AG37"
+ },
+ {
+  "name": "Prowler Stash 06",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Greenwich",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_PROWLERTECH_06"
+ },
+ {
+  "name": "Prowler Stash 06 Small F26",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Hell's Kitchen",
+  "district_source": "position+counts",
+  "pos": [
+   -708.0,
+   59.0,
+   379.5
+  ],
+  "engine": "OW_PROWLERTECH_06_SMALL_F26"
+ },
+ {
+  "name": "Prowler Stash 07",
+  "category": "prowlertech",
+  "always": false,
+  "district": "Downtown Brooklyn",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_PROWLERTECH_07"
+ },
+ {
+  "name": "Marko's Memory 01",
+  "category": "sand",
+  "always": false,
+  "district": "Little Odessa",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_01"
+ },
+ {
+  "name": "Marko's Memory 05",
+  "category": "sand",
+  "always": false,
+  "district": "Central Park",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_05"
+ },
+ {
+  "name": "Marko's Memory 07",
+  "category": "sand",
+  "always": false,
+  "district": "Midtown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_07"
+ },
+ {
+  "name": "Marko's Memory 08",
+  "category": "sand",
+  "always": false,
+  "district": "Midtown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_08"
+ },
+ {
+  "name": "Marko's Memory 10",
+  "category": "sand",
+  "always": false,
+  "district": "Williamsburg",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_10"
+ },
+ {
+  "name": "Marko's Memory 11",
+  "category": "sand",
+  "always": false,
+  "district": "Chinatown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_11"
+ },
+ {
+  "name": "Marko's Memory 13",
+  "category": "sand",
+  "always": false,
+  "district": "Chinatown",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_13"
+ },
+ {
+  "name": "Marko's Memory 14",
+  "category": "sand",
+  "always": false,
+  "district": "Greenwich",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_14"
+ },
+ {
+  "name": "Marko's Memory 15",
+  "category": "sand",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_15"
+ },
+ {
+  "name": "Marko's Memory 16",
+  "category": "sand",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_16"
+ },
+ {
+  "name": "Marko's Memory 17",
+  "category": "sand",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_17"
+ },
+ {
+  "name": "Marko's Memory 19",
+  "category": "sand",
+  "always": false,
+  "district": "Financial District",
+  "district_source": "counts only (arbitrary id)",
+  "engine": "OW_SAND_MEMORY_19"
+ },
+ {
+  "name": "Spider-Bot 01",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 0,
+  "engine": "Spider-Bot 01"
+ },
+ {
+  "name": "Spider-Bot 02",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Little Odessa",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 1,
+  "engine": "Spider-Bot 02"
+ },
+ {
+  "name": "Spider-Bot 03",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Queens",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 2,
+  "engine": "Spider-Bot 03"
+ },
+ {
+  "name": "Spider-Bot 04",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Williamsburg",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 3,
+  "engine": "Spider-Bot 04"
+ },
+ {
+  "name": "Spider-Bot 05",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 4,
+  "engine": "Spider-Bot 05"
+ },
+ {
+  "name": "Spider-Bot 06",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 5,
+  "engine": "Spider-Bot 06"
+ },
+ {
+  "name": "Spider-Bot 07",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Little Odessa",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 6,
+  "engine": "Spider-Bot 07"
+ },
+ {
+  "name": "Spider-Bot 08",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Williamsburg",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 7,
+  "engine": "Spider-Bot 08"
+ },
+ {
+  "name": "Spider-Bot 09",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 8,
+  "engine": "Spider-Bot 09"
+ },
+ {
+  "name": "Spider-Bot 10",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Little Odessa",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 9,
+  "engine": "Spider-Bot 10"
+ },
+ {
+  "name": "Spider-Bot 11",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 10,
+  "engine": "Spider-Bot 11"
+ },
+ {
+  "name": "Spider-Bot 12",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Upper West Side",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 11,
+  "engine": "Spider-Bot 12"
+ },
+ {
+  "name": "Spider-Bot 13",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Hell's Kitchen",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 12,
+  "engine": "Spider-Bot 13"
+ },
+ {
+  "name": "Spider-Bot 14",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Harlem",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 13,
+  "engine": "Spider-Bot 14"
+ },
+ {
+  "name": "Spider-Bot 15",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Upper West Side",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 14,
+  "engine": "Spider-Bot 15"
+ },
+ {
+  "name": "Spider-Bot 16",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Hell's Kitchen",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 15,
+  "engine": "Spider-Bot 16"
+ },
+ {
+  "name": "Spider-Bot 17",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Hell's Kitchen",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 16,
+  "engine": "Spider-Bot 17"
+ },
+ {
+  "name": "Spider-Bot 18",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Upper West Side",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 17,
+  "engine": "Spider-Bot 18"
+ },
+ {
+  "name": "Spider-Bot 19",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Greenwich",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 18,
+  "engine": "Spider-Bot 19"
+ },
+ {
+  "name": "Spider-Bot 20",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Central Park",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 19,
+  "engine": "Spider-Bot 20"
+ },
+ {
+  "name": "Spider-Bot 21",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Harlem",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 20,
+  "engine": "Spider-Bot 21"
+ },
+ {
+  "name": "Spider-Bot 22",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Midtown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 21,
+  "engine": "Spider-Bot 22"
+ },
+ {
+  "name": "Spider-Bot 23",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Greenwich",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 22,
+  "engine": "Spider-Bot 23"
+ },
+ {
+  "name": "Spider-Bot 24",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Central Park",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 23,
+  "engine": "Spider-Bot 24"
+ },
+ {
+  "name": "Spider-Bot 25",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Hell's Kitchen",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 24,
+  "engine": "Spider-Bot 25"
+ },
+ {
+  "name": "Spider-Bot 26",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Harlem",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 25,
+  "engine": "Spider-Bot 26"
+ },
+ {
+  "name": "Spider-Bot 27",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Financial District",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 26,
+  "engine": "Spider-Bot 27"
+ },
+ {
+  "name": "Spider-Bot 28",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Upper East Side",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 27,
+  "engine": "Spider-Bot 28"
+ },
+ {
+  "name": "Spider-Bot 29",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Upper East Side",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 28,
+  "engine": "Spider-Bot 29"
+ },
+ {
+  "name": "Spider-Bot 30",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Greenwich",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 29,
+  "engine": "Spider-Bot 30"
+ },
+ {
+  "name": "Spider-Bot 31",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Upper East Side",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 30,
+  "engine": "Spider-Bot 31"
+ },
+ {
+  "name": "Spider-Bot 32",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Midtown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 31,
+  "engine": "Spider-Bot 32"
+ },
+ {
+  "name": "Spider-Bot 33",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Chinatown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 32,
+  "engine": "Spider-Bot 33"
+ },
+ {
+  "name": "Spider-Bot 34",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Financial District",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 33,
+  "engine": "Spider-Bot 34"
+ },
+ {
+  "name": "Spider-Bot 35",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 34,
+  "engine": "Spider-Bot 35"
+ },
+ {
+  "name": "Spider-Bot 36",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Chinatown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 35,
+  "engine": "Spider-Bot 36"
+ },
+ {
+  "name": "Spider-Bot 37",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Chinatown",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 36,
+  "engine": "Spider-Bot 37"
+ },
+ {
+  "name": "Spider-Bot 38",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 37,
+  "engine": "Spider-Bot 38"
+ },
+ {
+  "name": "Spider-Bot 39",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Queens",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 38,
+  "engine": "Spider-Bot 39"
+ },
+ {
+  "name": "Spider-Bot 40",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Brooklyn",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 39,
+  "engine": "Spider-Bot 40"
+ },
+ {
+  "name": "Spider-Bot 41",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Downtown Queens",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 40,
+  "engine": "Spider-Bot 41"
+ },
+ {
+  "name": "Spider-Bot 42",
+  "category": "spiderbot",
+  "always": true,
+  "district": "Astoria",
+  "district_source": "by position (save index has no district of its own)",
+  "save_index": 41,
+  "engine": "Spider-Bot 42"
+ }
+]

@@ -1,0 +1,843 @@
+{
+"base_id": 65600000,
+"items": {
+"Acrobat": "doubleperk",
+"Active Spider": "doubleperk",
+"Aerial Escapades": "skill",
+"Air Marshal": "doubleperk",
+"All Seeing": "doubleperk",
+"Ammo Refund": "skill",
+"Animate On Twos": "skill",
+"AntiVenomBomb": "ability",
+"AntiVenomTempest": "ability",
+"BlueVenomChainLightning": "ability",
+"BlueVenomNova": "ability",
+"BlueVenomStormBringer": "ability",
+"BlueVenomThunderClap": "ability",
+"Bonus Focus On Webbed Hit": "skill",
+"Bonus Ultimate Meter On Finisher": "skill",
+"Charged": "doubleperk",
+"Combo Cooldown": "skill",
+"Combo King": "doubleperk",
+"Confidence Boost": "doubleperk",
+"Corner Tether": "skill",
+"Corner Tether #2": "skill",
+"Damage Modifier Condition WAM Selector": "skill",
+"Damage Modifier Multiply": "skill",
+"Directional Web Yank": "skill",
+"Efficient": "skill",
+"Eyes On Target": "doubleperk",
+"Fired Up": "skill",
+"Floor Is Lava": "doubleperk",
+"Focus Strike": "doubleperk",
+"Focused Parry": "doubleperk",
+"Gadget Concussion Burst": "gadget",
+"Gadget Proc": "skill",
+"Gadget Resupply": "skill",
+"Gadget Ricochet Web": "gadget",
+"Gadget Sonic Burst (alt)": "gadget",
+"Gadget Upshot": "gadget",
+"Gadget Web Grabber": "gadget",
+"Gadget Web Line (traversal)": "gadget",
+"Gadget Web Shooters": "gadget",
+"Gadget Web Snatch (traversal)": "gadget",
+"GooSlam": "ability",
+"Goonami": "ability",
+"Health": "skill",
+"Iron Barrage Brute Force": "skill",
+"Iron Barrage Brute Force #2": "skill",
+"Iron Launch Status Spread": "skill",
+"Iron Rush Tornado": "skill",
+"Iron Shock Overload": "skill",
+"IronRush": "ability",
+"IronShock": "ability",
+"IronShockOverload": "skill",
+"IronSpiderBarrage": "ability",
+"IronWhiplash": "ability",
+"Kick Flip": "skill",
+"Knockout Cooldown": "skill",
+"Life Link": "doubleperk",
+"Lift And Slam Web Yank": "skill",
+"Mod Slot Defensive": "modslot",
+"Mod Slot Flexible": "modslot",
+"Mod Slot Offensive": "modslot",
+"Parry Amped": "skill",
+"Parry Disarm Light": "skill",
+"Parry Webbed": "skill",
+"ParryDisarm": "skill",
+"ParryWebbed": "skill",
+"Perfect Dodge Cooldown": "skill",
+"Perfect Sight": "doubleperk",
+"RWIk": "skill",
+"Rejuvenating Parry": "doubleperk",
+"Riposte": "skill",
+"Slam Down": "skill",
+"Slingshot Launch": "skill",
+"SlingshotLaunch": "skill",
+"SlingshotLaunch #2": "skill",
+"Spike Ball Range": "skill",
+"SpikeBall": "ability",
+"Stronger Webs": "skill",
+"SuitTech Damage 1": "suittech",
+"SuitTech Damage 2": "suittech",
+"SuitTech Damage 3": "suittech",
+"SuitTech Damage 4": "suittech",
+"SuitTech Damage 5": "suittech",
+"SuitTech Damage 6": "suittech",
+"SuitTech Focus 1": "suittech",
+"SuitTech Focus 2": "suittech",
+"SuitTech Focus 3": "suittech",
+"SuitTech Focus 4": "suittech",
+"SuitTech Focus 5": "suittech",
+"SuitTech Focus 6": "suittech",
+"SuitTech Health 1": "suittech",
+"SuitTech Health 2": "suittech",
+"SuitTech Health 3": "suittech",
+"SuitTech Health 4": "suittech",
+"SuitTech Health 5": "suittech",
+"SuitTech Health 6": "suittech",
+"Symbiote Strike Goo Train": "skill",
+"Symbiote Surge Alien Harmony": "skill",
+"Symbiote Surge Dont Resist": "skill",
+"Symbiote Surge Ready To Glow": "skill",
+"SymbioteStrike": "ability",
+"SymbioteYankMoar": "skill",
+"Target Acquisition": "doubleperk",
+"Tentacle Yank Moar": "skill",
+"TentaclePunch": "ability",
+"TentacleYank": "ability",
+"The Best Defense": "doubleperk",
+"Tough": "skill",
+"TraversalVenomDash": "ability",
+"TraversalVenomJump": "ability",
+"Two Target Stealth Perch Takedown": "skill",
+"Ultimate Assist": "skill",
+"VenomDash": "ability",
+"VenomJump": "ability",
+"VenomPunch": "ability",
+"VenomSmash": "ability",
+"Web Grabber Bombard": "skill",
+"Web Grabber Bombard #10": "skill",
+"Web Throw Enemies": "skill",
+"Web Whip Pitch": "skill",
+"XKmu": "skill"
+},
+"districts": [
+"Astoria",
+"Central Park",
+"Chinatown",
+"Downtown Brooklyn",
+"Downtown Queens",
+"Financial District",
+"Greenwich",
+"Harlem",
+"Hell's Kitchen",
+"Little Odessa",
+"Midtown",
+"Upper East Side",
+"Upper West Side",
+"Williamsburg"
+],
+"locations": {
+"Hunter Blind: Brooklyn Aviary 01": [
+"blind",
+"Harlem",
+false
+],
+"Hunter Blind: Brooklyn Aviary 02": [
+"blind",
+"Harlem",
+false
+],
+"Hunter Blind: Financial District 01": [
+"blind",
+"Upper West Side",
+false
+],
+"Hunter Blind: Financial District 02": [
+"blind",
+"Upper West Side",
+false
+],
+"Hunter Blind: Financial District 03": [
+"blind",
+"Upper West Side",
+false
+],
+"Hunter Blind: Harlem 01": [
+"blind",
+"Financial District",
+false
+],
+"Hunter Blind: Harlem 02": [
+"blind",
+"Financial District",
+false
+],
+"Hunter Blind: Harlem 03": [
+"blind",
+"Downtown Brooklyn",
+false
+],
+"Hunter Blind: Upper West Side 01": [
+"blind",
+"Harlem",
+false
+],
+"Hunter Blind: Upper West Side 02": [
+"blind",
+"Upper West Side",
+false
+],
+"Hunter Blind: Upper West Side 03": [
+"blind",
+"Upper West Side",
+false
+],
+"Brooklyn Visions 01": [
+"bva",
+"Williamsburg",
+false
+],
+"Brooklyn Visions 02": [
+"bva",
+"Williamsburg",
+false
+],
+"Brooklyn Visions 03": [
+"bva",
+"Williamsburg",
+false
+],
+"EMF: Brooklyn Heights": [
+"emf",
+"Central Park",
+false
+],
+"EMF: Central Park": [
+"emf",
+"Chinatown",
+false
+],
+"EMF: Finale": [
+"emf",
+"Central Park",
+false
+],
+"FNSM: Fido": [
+"fnsm",
+"Financial District",
+false
+],
+"FNSM: Fireworks": [
+"fnsm",
+"Downtown Brooklyn",
+false
+],
+"FNSM: Howard": [
+"fnsm",
+"Midtown",
+false
+],
+"FNSM: Spider-Bot": [
+"fnsm",
+"Chinatown",
+false
+],
+"Mysterium 01": [
+"mysterio",
+"Williamsburg",
+false
+],
+"Mysterium 02": [
+"mysterio",
+"Downtown Brooklyn",
+false
+],
+"Mysterium 03": [
+"mysterio",
+"Harlem",
+false
+],
+"Mysterium 04": [
+"mysterio",
+"Central Park",
+false
+],
+"Mysterium 05": [
+"mysterio",
+"Williamsburg",
+false
+],
+"Mysterium 06": [
+"mysterio",
+"Chinatown",
+false
+],
+"Mysterium 09": [
+"mysterio",
+"Downtown Queens",
+false
+],
+"Mysterium 11": [
+"mysterio",
+"Upper East Side",
+false
+],
+"Mysterium 12": [
+"mysterio",
+"Midtown",
+false
+],
+"Symbiote Nest 01": [
+"nest",
+"Astoria",
+false
+],
+"Symbiote Nest 02": [
+"nest",
+"Harlem",
+false
+],
+"Symbiote Nest 03": [
+"nest",
+"Harlem",
+false
+],
+"Symbiote Nest 04": [
+"nest",
+"Upper East Side",
+false
+],
+"Symbiote Nest 06": [
+"nest",
+"Upper East Side",
+false
+],
+"Symbiote Nest 07": [
+"nest",
+"Upper West Side",
+false
+],
+"Symbiote Nest 10": [
+"nest",
+"Williamsburg",
+false
+],
+"Symbiote Nest 11": [
+"nest",
+"Chinatown",
+false
+],
+"Symbiote Nest 12": [
+"nest",
+"Financial District",
+false
+],
+"Symbiote Nest 14": [
+"nest",
+"Little Odessa",
+false
+],
+"Photo Op 01": [
+"photo",
+"Astoria",
+true
+],
+"Photo Op 02": [
+"photo",
+"Astoria",
+true
+],
+"Photo Op 03": [
+"photo",
+"Central Park",
+true
+],
+"Photo Op 04": [
+"photo",
+"Central Park",
+true
+],
+"Photo Op 05": [
+"photo",
+"Chinatown",
+true
+],
+"Photo Op 06": [
+"photo",
+"Chinatown",
+true
+],
+"Photo Op 07": [
+"photo",
+"Downtown Brooklyn",
+true
+],
+"Photo Op 08": [
+"photo",
+"Downtown Brooklyn",
+true
+],
+"Photo Op 09": [
+"photo",
+"Downtown Brooklyn",
+true
+],
+"Photo Op 10": [
+"photo",
+"Downtown Queens",
+true
+],
+"Photo Op 11": [
+"photo",
+"Financial District",
+true
+],
+"Photo Op 12": [
+"photo",
+"Greenwich",
+true
+],
+"Photo Op 13": [
+"photo",
+"Greenwich",
+true
+],
+"Photo Op 14": [
+"photo",
+"Harlem",
+true
+],
+"Photo Op 15": [
+"photo",
+"Hell's Kitchen",
+true
+],
+"Photo Op 16": [
+"photo",
+"Little Odessa",
+true
+],
+"Photo Op 17": [
+"photo",
+"Little Odessa",
+true
+],
+"Photo Op 18": [
+"photo",
+"Little Odessa",
+true
+],
+"Photo Op 19": [
+"photo",
+"Astoria",
+true
+],
+"Photo Op 20": [
+"photo",
+"Astoria",
+true
+],
+"Photo Op 21": [
+"photo",
+"Central Park",
+true
+],
+"Photo Op 22": [
+"photo",
+"Central Park",
+true
+],
+"Photo Op 23": [
+"photo",
+"Chinatown",
+true
+],
+"Prowler Stash 02": [
+"prowlertech",
+"Hell's Kitchen",
+false
+],
+"Prowler Stash 02 Small Ac44": [
+"prowlertech",
+"Downtown Brooklyn",
+false
+],
+"Prowler Stash 03": [
+"prowlertech",
+"Midtown",
+false
+],
+"Prowler Stash 03 Medium G36": [
+"prowlertech",
+"Greenwich",
+false
+],
+"Prowler Stash 05": [
+"prowlertech",
+"Williamsburg",
+false
+],
+"Prowler Stash 05 Xsmall Ag37": [
+"prowlertech",
+"Williamsburg",
+false
+],
+"Prowler Stash 06": [
+"prowlertech",
+"Greenwich",
+false
+],
+"Prowler Stash 06 Small F26": [
+"prowlertech",
+"Hell's Kitchen",
+false
+],
+"Prowler Stash 07": [
+"prowlertech",
+"Downtown Brooklyn",
+false
+],
+"Marko's Memory 01": [
+"sand",
+"Little Odessa",
+false
+],
+"Marko's Memory 05": [
+"sand",
+"Central Park",
+false
+],
+"Marko's Memory 07": [
+"sand",
+"Midtown",
+false
+],
+"Marko's Memory 08": [
+"sand",
+"Midtown",
+false
+],
+"Marko's Memory 10": [
+"sand",
+"Williamsburg",
+false
+],
+"Marko's Memory 11": [
+"sand",
+"Chinatown",
+false
+],
+"Marko's Memory 13": [
+"sand",
+"Chinatown",
+false
+],
+"Marko's Memory 14": [
+"sand",
+"Greenwich",
+false
+],
+"Marko's Memory 15": [
+"sand",
+"Financial District",
+false
+],
+"Marko's Memory 16": [
+"sand",
+"Financial District",
+false
+],
+"Marko's Memory 17": [
+"sand",
+"Financial District",
+false
+],
+"Marko's Memory 19": [
+"sand",
+"Financial District",
+false
+],
+"Spider-Bot 01": [
+"spiderbot",
+"Astoria",
+true
+],
+"Spider-Bot 02": [
+"spiderbot",
+"Little Odessa",
+true
+],
+"Spider-Bot 03": [
+"spiderbot",
+"Downtown Queens",
+true
+],
+"Spider-Bot 04": [
+"spiderbot",
+"Williamsburg",
+true
+],
+"Spider-Bot 05": [
+"spiderbot",
+"Downtown Brooklyn",
+true
+],
+"Spider-Bot 06": [
+"spiderbot",
+"Astoria",
+true
+],
+"Spider-Bot 07": [
+"spiderbot",
+"Little Odessa",
+true
+],
+"Spider-Bot 08": [
+"spiderbot",
+"Williamsburg",
+true
+],
+"Spider-Bot 09": [
+"spiderbot",
+"Downtown Brooklyn",
+true
+],
+"Spider-Bot 10": [
+"spiderbot",
+"Little Odessa",
+true
+],
+"Spider-Bot 11": [
+"spiderbot",
+"Downtown Brooklyn",
+true
+],
+"Spider-Bot 12": [
+"spiderbot",
+"Upper West Side",
+true
+],
+"Spider-Bot 13": [
+"spiderbot",
+"Hell's Kitchen",
+true
+],
+"Spider-Bot 14": [
+"spiderbot",
+"Harlem",
+true
+],
+"Spider-Bot 15": [
+"spiderbot",
+"Upper West Side",
+true
+],
+"Spider-Bot 16": [
+"spiderbot",
+"Hell's Kitchen",
+true
+],
+"Spider-Bot 17": [
+"spiderbot",
+"Hell's Kitchen",
+true
+],
+"Spider-Bot 18": [
+"spiderbot",
+"Upper West Side",
+true
+],
+"Spider-Bot 19": [
+"spiderbot",
+"Greenwich",
+true
+],
+"Spider-Bot 20": [
+"spiderbot",
+"Central Park",
+true
+],
+"Spider-Bot 21": [
+"spiderbot",
+"Harlem",
+true
+],
+"Spider-Bot 22": [
+"spiderbot",
+"Midtown",
+true
+],
+"Spider-Bot 23": [
+"spiderbot",
+"Greenwich",
+true
+],
+"Spider-Bot 24": [
+"spiderbot",
+"Central Park",
+true
+],
+"Spider-Bot 25": [
+"spiderbot",
+"Hell's Kitchen",
+true
+],
+"Spider-Bot 26": [
+"spiderbot",
+"Harlem",
+true
+],
+"Spider-Bot 27": [
+"spiderbot",
+"Financial District",
+true
+],
+"Spider-Bot 28": [
+"spiderbot",
+"Upper East Side",
+true
+],
+"Spider-Bot 29": [
+"spiderbot",
+"Upper East Side",
+true
+],
+"Spider-Bot 30": [
+"spiderbot",
+"Greenwich",
+true
+],
+"Spider-Bot 31": [
+"spiderbot",
+"Upper East Side",
+true
+],
+"Spider-Bot 32": [
+"spiderbot",
+"Midtown",
+true
+],
+"Spider-Bot 33": [
+"spiderbot",
+"Chinatown",
+true
+],
+"Spider-Bot 34": [
+"spiderbot",
+"Financial District",
+true
+],
+"Spider-Bot 35": [
+"spiderbot",
+"Astoria",
+true
+],
+"Spider-Bot 36": [
+"spiderbot",
+"Chinatown",
+true
+],
+"Spider-Bot 37": [
+"spiderbot",
+"Chinatown",
+true
+],
+"Spider-Bot 38": [
+"spiderbot",
+"Astoria",
+true
+],
+"Spider-Bot 39": [
+"spiderbot",
+"Downtown Queens",
+true
+],
+"Spider-Bot 40": [
+"spiderbot",
+"Downtown Brooklyn",
+true
+],
+"Spider-Bot 41": [
+"spiderbot",
+"Downtown Queens",
+true
+],
+"Spider-Bot 42": [
+"spiderbot",
+"Astoria",
+true
+]
+},
+"engine": {
+"Hunter Blind: Brooklyn Aviary 01": "BLIND_HUNTER_BROOKLYN_AVIARY_01",
+"Hunter Blind: Brooklyn Aviary 02": "BLIND_HUNTER_BROOKLYN_AVIARY_02",
+"Hunter Blind: Financial District 01": "BLIND_HUNTER_FINANCEDIST_01",
+"Hunter Blind: Financial District 02": "BLIND_HUNTER_FINANCEDIST_02",
+"Hunter Blind: Financial District 03": "BLIND_HUNTER_FINANCEDIST_03",
+"Hunter Blind: Harlem 01": "BLIND_HUNTER_HARLEM_01",
+"Hunter Blind: Harlem 02": "BLIND_HUNTER_HARLEM_02",
+"Hunter Blind: Harlem 03": "BLIND_HUNTER_HARLEM_03",
+"Hunter Blind: Upper West Side 01": "BLIND_HUNTER_UPPERWEST_01",
+"Hunter Blind: Upper West Side 02": "BLIND_HUNTER_UPPERWEST_02",
+"Hunter Blind: Upper West Side 03": "BLIND_HUNTER_UPPERWEST_03",
+"Brooklyn Visions 01": "BVA_01",
+"Brooklyn Visions 02": "BVA_02",
+"Brooklyn Visions 03": "BVA_03",
+"EMF: Brooklyn Heights": "OW_EMF_ENERGY_BROOKLYNHEIGHTS",
+"EMF: Central Park": "OW_EMF_ENERGY_CENTRALPARK",
+"EMF: Finale": "OW_EMF_FINALE",
+"FNSM: Fido": "FNSM_FIDO",
+"FNSM: Fireworks": "FNSM_FIREWORKS",
+"FNSM: Howard": "FNSM_HOWARD",
+"FNSM: Spider-Bot": "FNSM_SPIDERBOT",
+"Mysterium 01": "MYSTERIO_CHALLENGE_01",
+"Mysterium 02": "MYSTERIO_CHALLENGE_02",
+"Mysterium 03": "MYSTERIO_CHALLENGE_03",
+"Mysterium 04": "MYSTERIO_CHALLENGE_04",
+"Mysterium 05": "MYSTERIO_CHALLENGE_05",
+"Mysterium 06": "MYSTERIO_CHALLENGE_06",
+"Mysterium 09": "MYSTERIO_CHALLENGE_09",
+"Mysterium 11": "MYSTERIO_CHALLENGE_11",
+"Mysterium 12": "MYSTERIO_CHALLENGE_12",
+"Symbiote Nest 01": "SYMBIOTE_NEST_01_P1",
+"Symbiote Nest 02": "SYMBIOTE_NEST_02_P1",
+"Symbiote Nest 03": "SYMBIOTE_NEST_03_P1",
+"Symbiote Nest 04": "SYMBIOTE_NEST_04_P1",
+"Symbiote Nest 06": "SYMBIOTE_NEST_06_P1",
+"Symbiote Nest 07": "SYMBIOTE_NEST_07_P2",
+"Symbiote Nest 10": "SYMBIOTE_NEST_10_P2",
+"Symbiote Nest 11": "SYMBIOTE_NEST_11_P2",
+"Symbiote Nest 12": "SYMBIOTE_NEST_12_P2",
+"Symbiote Nest 14": "SYMBIOTE_NEST_14_P2",
+"Prowler Stash 02": "OW_PROWLERTECH_02",
+"Prowler Stash 02 Small Ac44": "OW_PROWLERTECH_02_SMALL_AC44",
+"Prowler Stash 03": "OW_PROWLERTECH_03",
+"Prowler Stash 03 Medium G36": "OW_PROWLERTECH_03_MEDIUM_G36",
+"Prowler Stash 05": "OW_PROWLERTECH_05",
+"Prowler Stash 05 Xsmall Ag37": "OW_PROWLERTECH_05_XSMALL_AG37",
+"Prowler Stash 06": "OW_PROWLERTECH_06",
+"Prowler Stash 06 Small F26": "OW_PROWLERTECH_06_SMALL_F26",
+"Prowler Stash 07": "OW_PROWLERTECH_07",
+"Marko's Memory 01": "OW_SAND_MEMORY_01",
+"Marko's Memory 05": "OW_SAND_MEMORY_05",
+"Marko's Memory 07": "OW_SAND_MEMORY_07",
+"Marko's Memory 08": "OW_SAND_MEMORY_08",
+"Marko's Memory 10": "OW_SAND_MEMORY_10",
+"Marko's Memory 11": "OW_SAND_MEMORY_11",
+"Marko's Memory 13": "OW_SAND_MEMORY_13",
+"Marko's Memory 14": "OW_SAND_MEMORY_14",
+"Marko's Memory 15": "OW_SAND_MEMORY_15",
+"Marko's Memory 16": "OW_SAND_MEMORY_16",
+"Marko's Memory 17": "OW_SAND_MEMORY_17",
+"Marko's Memory 19": "OW_SAND_MEMORY_19"
+},
+"excluded": [
+"FNSM: Howard",
+"Prowler Stash 02 Small Ac44",
+"Prowler Stash 03 Medium G36",
+"Prowler Stash 05 Xsmall Ag37",
+"Prowler Stash 06 Small F26"
+]
+}
