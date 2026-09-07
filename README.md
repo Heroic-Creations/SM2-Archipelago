@@ -30,8 +30,11 @@ full seed yet. Expect rough edges, keep the log, and report what you hit.
 1. **The mod.** Put `SM2-Archipelago.script` in Overstrike's `Mods Library`,
    tick it, **Refresh**, **Install**. Untick any other SM2 script mods.
 2. **The world.** Put `spiderman2.apworld` in Archipelago's `custom_worlds` folder
-   (`C:\ProgramData\Archipelago\custom_worlds` on a default install). Restart the
-   Launcher, generate a template YAML, edit it, generate a seed as usual.
+   (`C:\ProgramData\Archipelago\custom_worlds` on a default install). Two YAMLs
+   ship with this zip: `Marvel's Spider-Man 2.yaml` (short, plain values) and
+   `Marvel's Spider-Man 2 (template).yaml` (Archipelago's own weighted template,
+   every option with its description). Either works — edit one, generate a seed
+   as usual.
 3. **The client.** Unzip the `client` folder anywhere you like. Double-click
    **`Start Client.bat`** once. It installs the one Python package it needs and
    starts the client, which then waits for you.

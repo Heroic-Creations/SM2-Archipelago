@@ -1,0 +1,276 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Marvel's Spider-Man 2 Template
+
+game: Marvel's Spider-Man 2
+requires:
+  version: 0.6.7 # Version of Archipelago required for this yaml to work as expected.
+  game:
+    Marvel's Spider-Man 2: 0.2.0 # Version of the world required for this yaml to work as expected.
+
+Marvel's Spider-Man 2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-99: 0 # random value between 0 and 99
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # **Full:** ensure everything can be reached and acquired.
+    # 
+    # **Minimal:** ensure what is needed to reach your goal can be acquired.
+    full: 50
+    minimal: 0
+
+  game_mode:
+    # How the run is shaped.
+    # 
+    # **Zero to Hero** — the usual Archipelago shape. You start stripped of your
+    # abilities, gadgets and suit tech, and every check hands something back.
+    # The city opens up as you earn it.
+    # 
+    # **Longest Night** — the inverse. Peter and Miles start the night with
+    # *everything*, and each check you complete costs you something you are
+    # carrying. Strongest in the first hour, fighting with scraps by the end.
+    # Pace yourself; it is going to be a long one.
+    zero_to_hero: 50
+    longest_night: 0
+
+  goal:
+    # What finishes the run.
+    # 
+    # **All Side Missions** (default) — every enabled mission category: Marko's
+    # Memories, Symbiote Nests, Hunter Blinds, Mysteriums, Prowler Stashes,
+    # Brooklyn Visions, EMF, FNSM. Spider-bots and photo ops are collectibles and
+    # do not count toward it.
+    # 
+    # **All Spider-Bots** — find all 42.
+    # 
+    # **All Photo Ops** — take all 23.
+    # 
+    # **Everything** — every location in the seed.
+    # 
+    # In Longest Night the goal is the same; the difference is that the night
+    # takes your powers as you get there.
+    all_side_missions: 50
+    all_spider_bots: 0
+    all_photo_ops: 0
+    everything: 0
+
+  suit_sanity:
+    # Put suits and suit styles into the item pool.
+    # 
+    # Off by default: both modes hand you the full wardrobe at the start, because
+    # suits are cosmetic and hunting them adds length without adding decisions.
+    'false': 50
+    'true': 0
+
+  story_checks:
+    # Include main-story objectives as checks.
+    # 
+    # Off by default and untested. It roughly triples the location count, and the
+    # story is a fixed sequence, so it changes the pacing of a seed a great deal.
+    'false': 50
+    'true': 0
+
+  district_gating:
+    # Gate side content behind district unlocks.
+    # 
+    # On, each district is opened by an item, and its checks are out of logic
+    # until you hold it. Spider-bots and photo ops are always available, so there
+    # is something to do from the first minute.
+    # 
+    # Off, everything is open immediately — closer to how a completed save plays.
+    'false': 0
+    'true': 50
+
+  district_gate:
+    # What a locked district does to you.
+    # 
+    # The game will not hide a side mission from a mod, so locked districts are
+    # enforced on the player instead, using the game's own district volumes.
+    # It is an endurance slog, not a monster: nothing here kills you.
+    # 
+    # **Auto** — Night's Grip in Longest Night, Powers Fade in Zero to Hero.
+    # 
+    # **Night's Grip** — a warning, five seconds of grace, then your health
+    # drains to 1 and stays there until you leave. An ENERGY meter on the
+    # overlay shows it. You can dash in for a spider-bot; you cannot fight.
+    # 
+    # **Powers Fade** — abilities and gadgets are taken on entry and handed
+    # back on exit. Combat missions become impossible; traversal stays.
+    # 
+    # **Boundary** — cross the line and you are put back where you came from.
+    # A wall.
+    # 
+    # **None** — locked districts are logic-only. Checks still count if you do
+    # them early.
+    auto: 50
+    none: 0
+    boundary: 0
+    nights_grip: 0
+    powers_fade: 0
+
+  random_start:
+    # Whether the district you wake up in counts as one of your free ones.
+    # 
+    # **Off** (default) — where you spawn is yours, permanently, and the world
+    # hands out one fewer random starting district. You always begin somewhere
+    # you can play.
+    # 
+    # **On** — every starting district is random. Your spawn district is only
+    # open until you leave it the first time; after that the gate applies there
+    # like anywhere else. Bring a plan.
+    'false': 50
+    'true': 0
+
+  starting_districts:
+    # How many districts are unlocked at the start.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 6
+    2: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-6: 0 # random value between 1 and 6
+
+  marko_memories:
+    # Marko's Memories (12). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  symbiote_nests:
+    # Symbiote Nests (10). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  hunter_blinds:
+    # Hunter Blinds (11). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  mysteriums:
+    # Mysteriums (9). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  prowler_stashes:
+    # Prowler Stashes (9). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  brooklyn_visions:
+    # Brooklyn Visions assignments (3). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  emf_experiments:
+    # EMF Experiments (3). Tracked by name -- reliable.
+    'false': 0
+    'true': 50
+
+  fnsm_requests:
+    # Friendly Neighbourhood Spider-Man requests (4). Tracked by name.
+    'false': 0
+    'true': 50
+
+  spider_bots:
+    # Spider-Bots (42). Detected from the save's collectible block.
+    # 
+    # The save keeps one record per bot with a Completed flag, keyed by position,
+    # so a pickup is seen exactly on the next autosave. Locations are named by
+    # that position -- 'Spider-Bot 07' -- because the game stores no name.
+    'false': 0
+    'true': 50
+
+  photo_ops:
+    # Photo Ops (23). Detected the same way as spider-bots.
+    # 
+    # Named by save position -- 'Photo Op 12'. The game has 23; earlier lists
+    # that said 18 were built from captured actors and missed five.
+    'false': 0
+    'true': 50
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: "Bomb: 1"
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
