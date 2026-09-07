@@ -1,0 +1,9 @@
+{
+    "name": "SM2-Archipelago",
+    "type": "script",
+    "author": "Heroic-Creations",
+    "version": "0.2.0",
+    "dependencies": [],
+    "game": "MSM2",
+    "format_version": 1
+}
