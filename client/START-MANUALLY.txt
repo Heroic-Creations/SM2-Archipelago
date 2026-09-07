@@ -1,0 +1,71 @@
+STARTING THE CLIENT WITHOUT THE .BAT
+=====================================
+
+You do not have to run "Start Client.bat". It is four lines of plain text --
+open it in Notepad and read it -- and everything it does you can do yourself.
+
+WHAT THE .BAT DOES
+
+    1. cd into this "client" folder
+    2. checks whether the "websockets" Python package is installed
+    3. if not:   python -m pip install --user websockets
+    4. then:     python -u client.py
+
+That is all. No downloads except that one package from PyPI, nothing outside
+this folder except %LOCALAPPDATA%\SM2-Archipelago, where the client and the
+game mod leave small files for each other.
+
+DOING IT BY HAND
+
+    Open a terminal in this folder (right-click the folder background ->
+    "Open in Terminal", or type cmd in the address bar), then:
+
+        python -m pip install --user websockets        (once, needs internet)
+        python -u client.py
+
+    Leave that window open while you play. In the game, press F8 to connect.
+
+    If "python" opens the Microsoft Store instead of running: either install
+    Python from that Store page, or install it from python.org and tick
+    "Add python.exe to PATH" during setup, or use "py -3" in place of "python".
+
+IF THE .BAT FAILS
+
+    The window closes instantly
+        Run it from a terminal instead (see above) so the error stays on
+        screen. Nine times out of ten it is one of the lines below.
+
+    'python' is not recognized / 'py' is not recognized
+        Python is not installed or not on PATH. Install 3.11 or newer from
+        python.org with "Add python.exe to PATH" ticked, or from the
+        Microsoft Store. Then try again.
+
+    pip fails, or "No module named websockets"
+        The package did not install. Run the pip line yourself with the
+        terminal open and read what it says. It needs internet once. If pip
+        itself is missing:  python -m ensurepip --user
+
+    "another client is already running (heartbeat Ns old)"
+        One is already up -- it refuses to start a second. Close the other
+        window, or wait ten seconds, and start again.
+
+    Windows SmartScreen / antivirus complains about the .bat
+        It is plain text; read it. If you would rather not run it, use the
+        two commands above -- that is exactly what it does.
+
+    The client starts but F8 in the game does nothing
+        The mod finds the client through a file the client writes on start
+        (%LOCALAPPDATA%\SM2-Archipelago\client-path.txt). Start the client
+        first, then the game. If F8 still does nothing, open the window by
+        hand from this folder:   pythonw connect_ui.py
+
+    "no save folder found"
+        The game has never saved on this PC, or Documents lives somewhere
+        unusual. Load the starter save once and save the game, then start
+        the client again.
+
+WHAT TO SEND IF NONE OF THAT HELPS
+
+    %LOCALAPPDATA%\SM2-Archipelago\client-out.txt
+    %LOCALAPPDATA%\SM2-Archipelago\APMod.log
+    and the exact text of the error.
