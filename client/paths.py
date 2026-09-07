@@ -1,7 +1,7 @@
 """Where things live, on any machine.
 
-Until 2026-09-06 every path in the client was a literal folder on the
-on the machine it was written on. These are the rules that replace it:
+Until 2026-09-06 every path in the client was a literal folder that only
+existed on the machine it was written on. These are the rules that replace it:
 
   RUNTIME   %LOCALAPPDATA%\SM2-Archipelago -- every file the mod and client
             exchange (commands, status, game state, logs). The mod derives the
