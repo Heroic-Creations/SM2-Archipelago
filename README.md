@@ -1,16 +1,16 @@
-# Marvel's Spider-Man 2 — Archipelago (alpha)
+# Marvel's Spider-Man 2 - Archipelago (alpha)
 
 Swing New York with your powers randomized by [Archipelago](https://archipelago.gg).
 Two ways to play, chosen in your YAML:
 
-- **Zero to Hero** — you start stripped of abilities, gadgets and suit tech. Every
+- **Zero to Hero** - you start stripped of abilities, gadgets and suit tech. Every
   check you complete hands something back.
-- **Longest Night** — you start with *everything*, and every check you complete
+- **Longest Night** - you start with *everything*, and every check you complete
   takes something away. Strongest in the first hour, fighting with scraps by the
   end. Pace yourself; it's going to be a long one.
 
 Both grant every suit up front. Districts are gated: each opens with a
-`District: <name>` item, and a locked district is **enforced in game** — see
+`District: <name>` item, and a locked district is **enforced in game** - see
 *District gates* below.
 
 **Status: alpha.** Everything below has been run live, but nobody has finished a
@@ -25,7 +25,7 @@ full seed yet. Expect rough edges, keep the log, and report what you hit.
 - [Archipelago](https://archipelago.gg/) 0.6.4 or newer
 - Python 3.11 or newer (from python.org or the Microsoft Store)
 
-## Install — six steps
+## Install - six steps
 
 1. **The mod.** Put `SM2-Archipelago.script` in Overstrike's `Mods Library`,
    tick it, **Refresh**, **Install**. Untick any other SM2 script mods.
@@ -40,11 +40,11 @@ full seed yet. Expect rough edges, keep the log, and report what you hit.
    starts the client, which then waits for you.
 4. **The save.** Archipelago needs the open world with nothing collected, and
    a new game doesn't have that. Copy `save\slot2-manual-0.save` into your save
-   folder (`Documents\Marvel's Spider-Man 2\<long number>\`) -- **it replaces
+   folder (`Documents\Marvel's Spider-Man 2\<long number>\`) - **it replaces
    save slot 2, back yours up first**. Details in `save\README.txt`.
 5. **Play.** Launch the game, load slot 2, get into gameplay.
-6. **Connect.** Press **F8** in game. A small window opens — server, slot,
-   password — hit **Connect**. (The password is the room's, if the host set one
+6. **Connect.** Press **F8** in game. A small window opens - server, slot,
+   password - hit **Connect**. (The password is the room's, if the host set one
    in Archipelago's `host.yaml`; otherwise leave it blank.) The dot goes green,
    the feed in the lower-left says the seed is landing, and you're playing.
 
@@ -54,9 +54,9 @@ You only need step 3 once per session (F8 finds the client after that) and step 
 
 A neon feed in the lower-left corner of the game:
 
-- `CHECK` — a location you just completed
-- `ITEM` / `LOST` — what arrived, or what the night took
-- `UPDATE` — the run talking to you: district notices, the goal, your energy
+- `CHECK` - a location you just completed
+- `ITEM` / `LOST` - what arrived, or what the night took
+- `UPDATE` - the run talking to you: district notices, the goal, your energy
 
 A dot with the connection state sits under it. If the dot is red, press F8.
 
@@ -67,14 +67,14 @@ Your YAML picks what a *locked* district does to you (`district_gate`):
 | Option | What happens |
 |---|---|
 | `auto` (default) | Night's Grip in Longest Night, Powers Fade in Zero to Hero |
-| `nights_grip` | A warning, five seconds, then your health drains to 1 and stays there until you leave. An **ENERGY** meter shows the drain — the game's own bar doesn't. You *can* dash in for a spider-bot. You cannot fight. |
+| `nights_grip` | A warning, five seconds, then your health drains to 1 and stays there until you leave. An **ENERGY** meter shows the drain - the game's own bar doesn't. You *can* dash in for a spider-bot. You can even fight, but it will be a challenge. |
 | `powers_fade` | Your abilities and gadgets are taken on entry and returned when you leave. Combat missions become impossible; traversal stays. |
 | `boundary` | You are put back where you came from. A wall. |
 | `none` | Logic-only. Nothing enforced. |
 
 `random_start: false` (default) makes the district you load into one of your free
 ones. With it on, every starting district is random and your spawn district is
-only open until you first leave it.
+only open until you first leave it. **Untested**
 
 ## Goal
 
@@ -105,14 +105,14 @@ Spider-bots and photo ops are named by position — `Spider-Bot 07`, `Photo Op 1
 — because the game stores no name for them. That'll get friendlier as the
 name table fills in.
 
-## Known gaps (please don't report these)
+## Known gaps
 
-- Nobody has finished a full seed. That's what you're for.
+- Nobody has finished a full seed so there are bound to be logic gaps if you find one please report.
 - Spider-bot and photo-op names are positions, not the bots' real names.
-- `powers_fade` and `boundary` have had less live time than `nights_grip`.
+- `powers_fade` and `boundary` have had less live time than `nights_grip` so there are bound to be boundary issues 
 - A few districts still resolve by position rather than the game's own
   district id; borders can be a few metres off.
-- Story missions are not checks.
+- Story missions are not checks yet. 
 
 ## When something breaks
 
