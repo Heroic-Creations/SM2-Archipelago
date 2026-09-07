@@ -3,9 +3,12 @@
 Until 2026-09-06 every path in the client was a literal folder that only
 existed on the machine it was written on. These are the rules that replace it:
 
-  RUNTIME   %LOCALAPPDATA%\SM2-Archipelago -- every file the mod and client
+  RUNTIME   %ProgramData%\SM2-Archipelago -- every file the mod and client
             exchange (commands, status, game state, logs). The mod derives the
             same folder (runtime.h), so nothing is configured.
+            Not AppData\Local: the Microsoft Store build of Python redirects
+            its writes there into a private per-package copy, and the mod
+            (native code) never sees them. ProgramData is not redirected.
   HERE      the folder this client was unzipped into. Registered into RUNTIME
             on start so the mod's F8 can open the connect window.
   saves     the game writes to <Documents>\Marvel's Spider-Man 2\<steam id>\,
@@ -18,7 +21,7 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RUNTIME = os.path.join(os.environ.get("LOCALAPPDATA") or os.path.expanduser("~"), "SM2-Archipelago")
+RUNTIME = os.path.join(os.environ.get("ProgramData") or r"C:\ProgramData", "SM2-Archipelago")
 os.makedirs(RUNTIME, exist_ok=True)
 
 

@@ -12,7 +12,7 @@ WHAT THE .BAT DOES
     4. then:     python -u client.py
 
 That is all. No downloads except that one package from PyPI, nothing outside
-this folder except %LOCALAPPDATA%\SM2-Archipelago, where the client and the
+this folder except C:\ProgramData\SM2-Archipelago, where the client and the
 game mod leave small files for each other.
 
 DOING IT BY HAND
@@ -55,7 +55,7 @@ IF THE .BAT FAILS
 
     The client starts but F8 in the game does nothing
         The mod finds the client through a file the client writes on start
-        (%LOCALAPPDATA%\SM2-Archipelago\client-path.txt). Start the client
+        (C:\ProgramData\SM2-Archipelago\client-path.txt). Start the client
         first, then the game. If F8 still does nothing, open the window by
         hand from this folder:   pythonw connect_ui.py
 
@@ -66,6 +66,6 @@ IF THE .BAT FAILS
 
 WHAT TO SEND IF NONE OF THAT HELPS
 
-    %LOCALAPPDATA%\SM2-Archipelago\client-out.txt
-    %LOCALAPPDATA%\SM2-Archipelago\APMod.log
+    C:\ProgramData\SM2-Archipelago\client-out.txt
+    C:\ProgramData\SM2-Archipelago\APMod.log
     and the exact text of the error.

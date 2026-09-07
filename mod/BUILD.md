@@ -23,8 +23,8 @@ git apply SM2ScriptTemplate.patch        (or: patch -p1 < SM2ScriptTemplate.patc
 3. From an x64 Developer Command Prompt:
 
 ```
-cl /nologo /std:c++20 /EHa /LD /O2 /W3 /DLOGLEVEL=3 /D_CRT_SECURE_NO_WARNINGS ^
-   /I. dllmain.cpp logging.cpp scan.cpp utils.cpp overlay.cpp ^
+cl /nologo /std:c++20 /EHa /LD /O2 /W3 /DLOGLEVEL=4 /D_CRT_SECURE_NO_WARNINGS ^
+   /I. /Iinclude dllmain.cpp logging.cpp scan.cpp utils.cpp overlay.cpp ^
    game\*.cpp game\Component\*.cpp /Fe:SM2-Archipelago.dll ^
    /link lib\libMinHook.x64.lib user32.lib psapi.lib gdi32.lib shell32.lib ole32.lib
 ```
@@ -32,6 +32,7 @@ cl /nologo /std:c++20 /EHa /LD /O2 /W3 /DLOGLEVEL=3 /D_CRT_SECURE_NO_WARNINGS ^
 4. Zip `info.json` and `SM2-Archipelago.dll` together as `SM2-Archipelago.script`
    and drop it in Overstrike's `Mods Library`.
 
-`LOGLEVEL=3` is the release setting; `4` adds DEBUG lines to
-`%LOCALAPPDATA%\SM2-Archipelago\APMod.log`. The `.inc` files are included by
-`dllmain.cpp` in a fixed order; they are not compiled separately.
+Released builds use `LOGLEVEL=4`, which writes the DEBUG lines to
+`C:\ProgramData\SM2-Archipelago\APMod.log` that a bug report needs; `3` drops
+them. The `.inc` files are included by `dllmain.cpp` in a fixed order; they are
+not compiled separately.

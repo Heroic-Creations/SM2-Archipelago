@@ -118,8 +118,8 @@ name table fills in.
 
 Grab these and send them with what you were doing:
 
-- `%LOCALAPPDATA%\SM2-Archipelago\APMod.log` (the mod)
-- `%LOCALAPPDATA%\SM2-Archipelago\client-out.txt` (the client)
+- `C:\ProgramData\SM2-Archipelago\APMod.log` (the mod)
+- `C:\ProgramData\SM2-Archipelago\client-out.txt` (the client)
 - your YAML and the seed's spoiler if you have it
 
 If the game crashes, the last few lines of `APMod.log` usually say what the mod
