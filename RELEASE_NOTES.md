@@ -9,11 +9,11 @@ a full seed. Read `README.md` before installing — six steps, ten minutes.
 
 What's in the zip:
 
-- `SM2-Archipelago.script` — the mod (install with Overstrike)
-- `spiderman2.apworld` — the world (Archipelago's `custom_worlds`)
-- `client\` — the client; run `Start Client.bat` once
-- `save\` — a starter save: the open world with nothing collected
-- `Marvel's Spider-Man 2.yaml` — a commented template
-- `README.md` — the tester guide, including what to send when something breaks
+- `SM2-Archipelago.script` - the mod (install with Overstrike)
+- `spiderman2.apworld` - the world (Archipelago's `custom_worlds`)
+- `client\` - the client; run `Start Client.bat` once
+- `save\` - a starter save: the open world with nothing collected
+- `Marvel's Spider-Man 2.yaml` - a commented template
+- `README.md` - the tester guide, including what to send when something breaks
 
 Known gaps are listed in the README. Please report against those, not into them.
