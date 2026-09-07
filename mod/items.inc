@@ -1,5 +1,5 @@
 // Generated 2026-09-04 from the toc + progression config. Do not hand-edit;
-// regenerate from notes.md / D:\SM2-AP-Capture\*.txt.
+// regenerate from the capture notes.
 //   slot >= 0 : slotted ability, DefaultSlot-1 ; -1 = ability, slot unknown (try 0..3) ; -2 = perk (not slotted)
 struct ApItem { const char* label; uint64_t hash; int32_t slot; const char* kind; };
 const ApItem kApItems[] = {

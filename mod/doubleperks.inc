@@ -12,7 +12,7 @@
 // and removes the loser; `pick <perk>` does the same for one pair at runtime.
 //
 // Extracted from the DoublePerk items' PerkConfig1/PerkConfig2 fields; every
-// path verified present in the toc. See D:\SM2-AP-Capture\double-perks.json.
+// path verified present in the toc. See the client's double-perks.json.
 
 struct DoublePerk {
     const char* column;

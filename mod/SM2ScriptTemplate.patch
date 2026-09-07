@@ -1,0 +1,107 @@
+diff -ru tpl/game/Actor.h ours/game/Actor.h
+--- a/game/Actor.h
++++ b/game/Actor.h
+@@ -36,6 +36,8 @@
+     char _0x12[0x54];
+     ComponentEntry* component_list;
+     short component_count;
++    // Do not trust this padding to place `name` -- the compiler adds its own
++    // alignment on top. GetName() reads +0xB8 explicitly instead.
+     char _0x72[0x38];
+     char* name;
+ public:
+@@ -77,6 +79,22 @@
+         return component_count;
+     }
+ 
++    // Added for the capture harness -- the actor name is our best candidate for
++    // an identifier that survives restarts, so every captured instance records it.
++    //
++    // Read at an explicit offset rather than through the `name` member. The
++    // struct's declared padding does not account for the compiler's own
++    // alignment, so adjusting the padding array to reach +0xB8 silently landed
++    // at +0xC0 instead. +0xB8 was derived empirically: sweeping 249 live actors
++    // for string pointers found a real name there on every one, and nowhere else.
++    inline const char* GetName() const {
++        return *reinterpret_cast<char* const*>(reinterpret_cast<const char*>(this) + 0xB8);
++    }
++
++    inline uint32_t GetFlags() const {
++        return flags;
++    }
++
+     inline ComponentEntry* GetComponentEntries() {
+         return component_list;
+     }
+diff -ru tpl/game/ActorHandle.h ours/game/ActorHandle.h
+--- a/game/ActorHandle.h
++++ b/game/ActorHandle.h
+@@ -12,4 +12,15 @@
+     }
+ 
+     bool operator==(ActorHandle &other) { return handle == other.handle; }
++
++    // Added for the capture harness. The hook records the packed handle while the
++    // actor is still under construction; resolution happens later, so we need to
++    // rebuild a handle from the raw value to look the finished actor back up.
++    static ActorHandle FromRaw(uint32_t raw) {
++        ActorHandle h;
++        h.handle = raw;
++        return h;
++    }
++
++    uint32_t Raw() const { return handle; }
+ };
+\ No newline at end of file
+diff -ru tpl/game/Component/ComponentRegistry.h ours/game/Component/ComponentRegistry.h
+--- a/game/Component/ComponentRegistry.h
++++ b/game/Component/ComponentRegistry.h
+@@ -13,6 +13,10 @@
+     inline ComponentInfo* GetComponentInfo(const char* name) {
+         return GetComponentInfo(StringCRC32(name));
+     }
++
++    // Added for the component dump -- lets us enumerate every registered hash
++    // rather than only looking up names we already know.
++    const HashTable<uint32_t, uint32_t>& Table() const { return component_table; }
+ };
+ 
+ DECLARE_NATIVE_REF(ComponentRegistry, Instance, ::ComponentRegistry*)
+diff -ru tpl/game/HashTable.h ours/game/HashTable.h
+--- a/game/HashTable.h
++++ b/game/HashTable.h
+@@ -28,4 +28,11 @@
+ 
+         return &values[index];
+     }
++
++    // Added for the component dump: the table is open-addressed, so walking the
++    // whole capacity and skipping empty slots enumerates every live key.
++    uint32_t Count() const { return count; }
++    uint32_t Capacity() const { return max_count; }
++    K KeyAt(uint32_t index) const { return keys[index]; }
++    bool IsValid() const { return keys != nullptr && max_count > 0 && max_count < 0x100000; }
+ };
+\ No newline at end of file
+diff -ru tpl/logging.h ours/logging.h
+--- a/logging.h
++++ b/logging.h
+@@ -24,6 +24,11 @@
+     #define FATAL(fmt, ...)
+ #endif
+ 
++// Headline channel: what the player sees on the live console. One plain line,
++// no timestamp, no level tag. Also written to the file (tagged SAY) so the
++// full record stays in one place. INFO/DEBUG detail goes to the file only.
++#define SAY(fmt, ...) logging::say(fmt, __VA_ARGS__)
++
+ namespace logging {
+     enum LogLevel {
+         INFO,
+@@ -33,4 +38,5 @@
+     };
+ 
+     void log(const LogLevel level, const char* fmt, ...);
++    void say(const char* fmt, ...);
+ }
+\ No newline at end of file

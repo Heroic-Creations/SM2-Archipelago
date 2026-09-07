@@ -9,12 +9,15 @@ packaging and this documentation are **MIT** — see `LICENSE`.
 
 ## The game mod (`SM2-Archipelago.script`) — GPL-3.0
 
-The mod is built on **[MSM2-Scripting](https://github.com/Tkachov/MSM2-Scripting)**
-by Tkachov (the `MSM2-Script-SDK` runtime it links against and the header
-layer it is compiled with), which is **GPL-3.0** with no exception for scripts.
-The mod is therefore a derivative work and is itself **GPL-3.0**; its own
+The mod is a script for **[Overstrike](https://github.com/Tkachov/Overstrike)**'s
+`scripts_proxy`, part of Tkachov's
+**[MSM2-Scripting](https://github.com/Tkachov/MSM2-Scripting)**, which is
+**GPL-3.0** with no exception for scripts. Its layout and engine headers descend
+from hbgda's **SM2ScriptTemplate**, which publishes no licence. The mod is
+therefore treated as a GPL-3.0 derivative and is itself **GPL-3.0**: its own
 source is in `mod\` with the licence text at `mod\LICENSE`, and `mod\BUILD.md`
-says where the SDK layer comes from. The SDK headers are not redistributed here.
+says where the template layer comes from. No template file is redistributed
+here; `mod\SM2ScriptTemplate.patch` carries only this project's edits to it.
 
 ## Notices
 

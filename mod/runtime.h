@@ -3,7 +3,7 @@
 // Everything the two sides exchange -- commands, status, game state, logs --
 // lives in %LOCALAPPDATA%\SM2-Archipelago. Both sides derive it; nothing is
 // configured, and it exists on every Windows machine. Until 2026-09-06 every
-// one of these paths was a literal D:\SM2-AP-Capture, which only existed on
+// one of these paths was a literal dev folder, which only existed on
 // the machine the mod was written on.
 #pragma once
 

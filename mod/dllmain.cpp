@@ -1,7 +1,7 @@
 // SM2-Archipelago -- the Marvel's Spider-Man 2 Archipelago mod.
 //
 // State on 2026-09-04: a live command channel over the proven item
-// primitives. Claude appends a line to D:\SM2-AP-Capture\ap-commands.txt,
+// primitives. the client appends a line to ap-commands.txt in the runtime folder,
 // the mod runs it on the game thread and prints the result on its console.
 // Location detection and the Archipelago client itself are not built yet.
 //
@@ -148,7 +148,7 @@ Actor* Hooked_GetActor(ActorHandle* handle) {
 // Log-only. Every objective / mission state write comes through here with the
 // node's 64-bit key (mission id high, objective id low) and the new value.
 // The ids are matched against the 1,411 save-schema names offline
-// (D:\SM2-AP-Capture\match-objectives.py) until the hashing is pinned down.
+// (the client's match-objectives.py) until the hashing is pinned down.
 
 using ObjectiveSetStateFn = void (*)(void* sys, uint64_t key, uint32_t val);
 ObjectiveSetStateFn g_original_objective_set_state = nullptr;

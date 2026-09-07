@@ -6,7 +6,7 @@
 // line; requests execute on the game thread through the same drains as before
 // and print results on the live console.
 //
-//     D:\SM2-AP-Capture\ap-commands.txt        one command per line
+//     <runtime>\ap-commands.txt        one command per line
 //
 //     remove <item>          equip inventory remove(-1); perks: Equip store, +recompute
 //     add <item>             add(+1)
