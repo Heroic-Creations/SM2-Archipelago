@@ -197,7 +197,7 @@ def run_offline(session, interval):
     print("offline mode: every check grants a random item from the pool")
     print("waiting for the game to save... (autosave, or save manually)\n")
     while True:
-        for name in session.watcher.poll() + session.collectibles.poll():
+        for name in session.watcher.poll() + session.collectibles.poll() + session.missions.poll():
             session.on_check(name)
             if session.mode == "longest_night":
                 session.on_night_toll()
@@ -260,6 +260,7 @@ async def run_online(session, host, slot, password, interval):
             while True:
                 found = await asyncio.to_thread(session.watcher.poll)
                 found += await asyncio.to_thread(session.collectibles.poll)
+                found += await asyncio.to_thread(session.missions.poll)
                 ids = []
                 for name in found:
                     session.on_check(name)
@@ -321,6 +322,7 @@ async def run_online(session, host, slot, password, interval):
                     missing = set(msg.get("missing_locations", []))
                     done = bridge.completed_in_save(session.watcher, list(session.watcher.valid))
                     done += bridge.completed_collectibles(session.watcher)
+                    done += bridge.completed_missions(session.watcher, list(session.watcher.valid))
                     catch_up = []
                     for name in done:
                         lid = loc_ids.get(name)
@@ -474,6 +476,10 @@ def main():
     # Spider-bots and photo ops come from the save's collectible block, keyed
     # by position -- see collectibles.py. Exact, so it is allowed to strip.
     session.collectibles = bridge.CollectibleWatcher(watcher)
+    # Missions with a record of their own (blinds, nests, mysteriums, FNSM,
+    # Brooklyn Visions, EMF) never trip the count rule; their MissionState
+    # string says when they are done -- see missions.py.
+    session.missions = bridge.MissionStateWatcher(watcher)
     try:
         import collectibles
         panel = collectibles.counts(collectibles.parse(
