@@ -325,3 +325,76 @@ def completed_collectibles(watcher):
     except Exception:
         return []
     return [collectibles.location_name(k) for k, v in state.items() if v]
+
+# --- missions with a record of their own: blinds, nests, mysteriums, FNSM, ... --
+
+class MissionStateWatcher:
+    """Reports mission checks by reading each mission's own state record.
+
+    The count rule (SaveWatcher) only works for record-less activities such as
+    Marko's memories and prowler stashes. Everything else -- hunter blinds,
+    symbiote nests, mysteriums, FNSM requests, Brooklyn Visions, EMF -- keeps
+    its objective-hash count at 2 when finished, so it never fired. missions.py
+    reads the MissionState string instead: kCompleteCleaning / kCompleteFinished
+    means done. Shares the folder, the valid set and the seen-set with the
+    SaveWatcher so a check is reported once whichever rule sees it first.
+    """
+
+    def __init__(self, watcher):
+        import missions
+        self.m = missions
+        self.watcher = watcher
+        self.baseline = {}              # save basename -> (mtime, {engine: state})
+
+    def poll(self):
+        import glob
+        found = []
+        if not self.watcher.folder:
+            return found
+        names = list(self.watcher.valid)
+        for path in glob.glob(os.path.join(self.watcher.folder, "*.save")):
+            key = os.path.basename(path)
+            if "prefs" in key:
+                continue
+            try:
+                mtime = os.path.getmtime(path)
+            except OSError:
+                continue
+            if self.baseline.get(key, (0, None))[0] == mtime:
+                continue
+            try:
+                state = self.m.states(self.m.parse(path), names)
+            except Exception as e:
+                print("  missions: %s unreadable (%s) -- will retry" % (key, e))
+                continue
+            prev = self.baseline.get(key, (0, None))[1]
+            self.baseline[key] = (mtime, state)
+            if prev is None:
+                continue                  # first sighting only sets a baseline
+            for engine in self.m.newly_done(prev, state):
+                name = self.watcher.ap_name(engine)
+                if name not in self.watcher.seen:
+                    self.watcher.seen.add(name)
+                    found.append(name)
+        return found
+
+
+def completed_missions(watcher, names):
+    """Which of `names` (ENGINE names) the newest save records as finished,
+    as Archipelago names. The catch-up path for everything the count rule
+    cannot judge."""
+    import glob
+    import missions
+    if not watcher.folder:
+        return []
+    saves = [p for p in glob.glob(os.path.join(watcher.folder, "*.save"))
+             if "prefs" not in os.path.basename(p)]
+    if not saves:
+        return []
+    newest = max(saves, key=os.path.getmtime)
+    try:
+        done = missions.done_names(newest, list(names))
+    except Exception:
+        return []
+    return [watcher.ap_name(n) for n in done]
+

@@ -87,6 +87,11 @@ BOOL CALLBACK PickWindow(HWND hwnd, LPARAM param) {
     DWORD pid = 0;
     GetWindowThreadProcessId(hwnd, &pid);
     if (pid != GetCurrentProcessId() || !IsWindowVisible(hwnd)) return TRUE;
+    // Never pick our own window. Once the ENERGY meter pushed the feed past
+    // 240 px tall it matched this filter, and being topmost it came first in
+    // the enumeration: every tick anchored the feed 40 px right of itself and it
+    // walked off the screen (seen live 2026-09-07, Night's Grip in Astoria).
+    if (hwnd == g_hwnd) return TRUE;
     if (GetWindow(hwnd, GW_OWNER) != nullptr) return TRUE;
     RECT r{};
     GetWindowRect(hwnd, &r);
